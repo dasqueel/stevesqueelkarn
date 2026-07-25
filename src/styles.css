@@ -123,6 +123,42 @@ a {
 }
 
 /* ============================================================
+   DEMO BANNER — only ever visible when records.json is fake
+   ============================================================ */
+
+.demo-flag {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.35rem 0.85rem;
+  margin-top: 1.25rem;
+  padding: 0.7rem 1rem;
+  border: 1px solid var(--brink);
+  border-left-width: 3px;
+  border-radius: 2px;
+  background: color-mix(in srgb, var(--brink) 10%, var(--felt));
+  font-family: var(--mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.09em;
+  line-height: 1.6;
+  color: var(--chalk-dim);
+}
+
+.demo-flag strong {
+  color: var(--brink);
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-weight: 700;
+}
+
+.demo-flag code {
+  color: var(--chalk);
+  background: var(--ink);
+  padding: 0.1rem 0.35rem;
+  border-radius: 2px;
+}
+
+/* ============================================================
    MASTHEAD
    ============================================================ */
 

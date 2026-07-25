@@ -65,6 +65,16 @@ export default function App() {
 
   return (
     <div className="shell">
+      {state.data.demo && (
+        <div className="demo-flag" role="status">
+          <strong>Demo data</strong>
+          <span>
+            Showing the {state.data.demo.season} season through week {state.data.demo.week} — not
+            live standings. Run <code>npm run data:records</code> to restore.
+          </span>
+        </div>
+      )}
+
       <Masthead
         season={state.data.season}
         updatedAt={state.data.updatedAt}

@@ -8,7 +8,8 @@
     "preview": "vite preview",
     "test": "node --test --experimental-strip-types scripts/scoring.test.ts",
     "data:teams": "node scripts/resolve-teams.mjs",
-    "data:records": "node scripts/fetch-records.mjs"
+    "data:records": "node scripts/fetch-records.mjs",
+    "data:demo": "node scripts/demo-records.mjs"
   },
   "dependencies": {
     "react": "^19.2.8",

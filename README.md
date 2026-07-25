@@ -43,6 +43,19 @@ node scripts/fetch-records.mjs --season 2025   # a specific season
 npm run data:teams     # re-resolve the draft to ESPN team ids
 ```
 
+### Seeing it mid-season
+
+Before kickoff the site is just a countdown. To see it with real results:
+
+```bash
+npm run data:demo                              # 2025 through week 8
+node scripts/demo-records.mjs --week 13        # later in the year
+npm run data:records                           # back to live data
+```
+
+Demo data is marked in `records.json` and the site shows a banner while it's
+loaded, so it can't be mistaken for the live standings. Don't commit it.
+
 ## Changing the draft
 
 `scripts/draft.mjs` is the source of truth. Edit it, then run

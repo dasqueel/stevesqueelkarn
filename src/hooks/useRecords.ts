@@ -5,6 +5,8 @@ export interface RecordsFile {
   season: number;
   updatedAt: string;
   teams: Record<string, TeamRecord>;
+  /** Present only when scripts/demo-records.mjs loaded a past season. */
+  demo?: { season: number; week: number };
 }
 
 type State =
