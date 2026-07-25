@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updatedAt": "2026-07-25T20:03:54.600Z",
+  "updatedAt": "2026-07-25T20:29:00.402Z",
   "teams": {
     "2": {
       "espnId": "2",
@@ -10,6 +10,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -153,6 +154,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -296,6 +298,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -439,6 +442,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -582,6 +586,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -725,6 +730,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -868,6 +874,7 @@
       "scheduled": 11,
       "remaining": 11,
       "excludedCCG": 0,
+      "scheduleIncomplete": true,
       "games": [
         {
           "week": 1,
@@ -1000,6 +1007,7 @@
       "scheduled": 13,
       "remaining": 13,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -1154,6 +1162,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -1297,6 +1306,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -1440,6 +1450,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -1583,6 +1594,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -1726,6 +1738,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -1869,6 +1882,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -2012,6 +2026,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -2155,6 +2170,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -2298,6 +2314,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -2441,6 +2458,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -2584,6 +2602,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -2727,6 +2746,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -2870,6 +2890,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -3013,6 +3034,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -3156,6 +3178,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -3299,6 +3322,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -3442,6 +3466,7 @@
       "scheduled": 11,
       "remaining": 11,
       "excludedCCG": 0,
+      "scheduleIncomplete": true,
       "games": [
         {
           "week": 1,
@@ -3574,6 +3599,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -3717,6 +3743,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -3860,6 +3887,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -4003,6 +4031,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -4146,6 +4175,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -4289,6 +4319,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -4432,6 +4463,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -4575,6 +4607,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -4718,6 +4751,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -4861,6 +4895,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -5004,6 +5039,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -5147,6 +5183,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -5290,6 +5327,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -5433,6 +5471,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -5576,6 +5615,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -5719,6 +5759,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -5862,6 +5903,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -6005,6 +6047,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -6148,6 +6191,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -6291,6 +6335,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -6434,6 +6479,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -6577,6 +6623,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -6720,6 +6767,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -6863,6 +6911,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -7006,6 +7055,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -7149,6 +7199,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -7292,6 +7343,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -7435,6 +7487,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -7578,6 +7631,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -7721,6 +7775,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -7864,6 +7919,7 @@
       "scheduled": 11,
       "remaining": 11,
       "excludedCCG": 0,
+      "scheduleIncomplete": true,
       "games": [
         {
           "week": 1,
@@ -7996,6 +8052,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -8139,6 +8196,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -8282,6 +8340,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -8425,6 +8484,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -8568,6 +8628,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -8711,6 +8772,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -8854,6 +8916,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -8997,6 +9060,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -9140,6 +9204,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -9283,6 +9348,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -9426,6 +9492,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -9569,6 +9636,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -9712,6 +9780,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -9855,6 +9924,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -9998,6 +10068,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -10141,6 +10212,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -10284,6 +10356,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -10427,6 +10500,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -10570,6 +10644,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -10713,6 +10788,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -10856,6 +10932,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -10999,6 +11076,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -11142,6 +11220,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -11285,6 +11364,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -11428,6 +11508,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -11571,6 +11652,7 @@
       "scheduled": 11,
       "remaining": 11,
       "excludedCCG": 0,
+      "scheduleIncomplete": true,
       "games": [
         {
           "week": 1,
@@ -11703,6 +11785,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -11846,6 +11929,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -11989,6 +12073,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -12132,6 +12217,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -12275,6 +12361,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -12418,6 +12505,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -12561,6 +12649,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -12704,6 +12793,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -12847,6 +12937,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -12990,6 +13081,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -13133,6 +13225,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -13276,6 +13369,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -13419,6 +13513,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -13562,6 +13657,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -13705,6 +13801,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -13848,6 +13945,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -13991,6 +14089,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -14134,6 +14233,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -14277,6 +14377,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -14420,6 +14521,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -14563,6 +14665,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -14706,6 +14809,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -14849,6 +14953,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -14992,6 +15097,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -15135,6 +15241,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -15278,6 +15385,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -15421,6 +15529,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -15564,6 +15673,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -15707,6 +15817,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -15850,6 +15961,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -15993,6 +16105,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -16136,6 +16249,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -16279,6 +16393,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -16422,6 +16537,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -16565,6 +16681,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -16708,6 +16825,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -16851,6 +16969,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -16994,6 +17113,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -17137,6 +17257,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -17280,6 +17401,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -17423,6 +17545,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -17566,6 +17689,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -17709,6 +17833,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -17852,6 +17977,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -17995,6 +18121,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -18138,6 +18265,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -18281,6 +18409,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -18424,6 +18553,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -18567,6 +18697,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
@@ -18710,6 +18841,7 @@
       "scheduled": 12,
       "remaining": 12,
       "excludedCCG": 0,
+      "scheduleIncomplete": false,
       "games": [
         {
           "week": 1,
