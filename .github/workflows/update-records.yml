@@ -1,0 +1,56 @@
+name: Update records
+
+# Refreshes public/data/records.json from ESPN. Pushing the updated file is what
+# triggers a Cloudflare Pages redeploy, so the site follows the season on its own.
+on:
+  schedule:
+    # 11:00 UTC = 6am ET, daily from August through December. Catches Saturday
+    # results, weeknight MACtion, and the Army-Navy game in mid-December.
+    - cron: '0 11 * 8-12 *'
+  workflow_dispatch:
+    inputs:
+      season:
+        description: 'Season year to fetch (blank = current)'
+        required: false
+        type: string
+
+concurrency:
+  group: update-records
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - run: npm ci
+
+      # The scoring rules are the whole contest — never publish data if they broke.
+      - name: Test scoring engine
+        run: npm test
+
+      - name: Fetch records
+        env:
+          SEASON: ${{ inputs.season }}
+        run: node scripts/fetch-records.mjs
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- public/data/records.json; then
+            echo "No change in records — nothing to publish."
+            exit 0
+          fi
+          git config user.name  "records-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add public/data/records.json
+          git commit -m "Update records ($(date -u +'%Y-%m-%d'))"
+          git push

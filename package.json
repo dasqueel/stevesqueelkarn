@@ -1,0 +1,26 @@
+{
+  "name": "stevesqueelkarn",
+  "version": "1.0.0",
+  "description": "College football season win-total pickem — Steve, Squeel & Karn",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "node --test --experimental-strip-types scripts/scoring.test.ts",
+    "data:teams": "node scripts/resolve-teams.mjs",
+    "data:records": "node scripts/fetch-records.mjs"
+  },
+  "dependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.4",
+    "typescript": "^7.0.2",
+    "vite": "^8.1.5"
+  },
+  "private": true,
+  "type": "module"
+}
