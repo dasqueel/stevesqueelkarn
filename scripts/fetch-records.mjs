@@ -142,9 +142,30 @@ if (failures.length) {
 const ccgStripped = Object.values(teams).reduce((n, t) => n + t.excludedCCG, 0);
 const anomalies = Object.values(teams).filter((t) => t.scheduleIncomplete);
 
+const OUT = resolve(ROOT, 'public/data/records.json');
+
+// `updatedAt` means "when the results last changed", not "when we last checked".
+// Stamping every run would rewrite the file daily and push ~150 empty commits
+// and redeploys across the season, so an unchanged fetch is left alone.
+let previous = null;
+try {
+  previous = JSON.parse(readFileSync(OUT, 'utf8'));
+} catch {
+  /* first run */
+}
+
+const unchanged =
+  previous?.season === SEASON && JSON.stringify(previous.teams) === JSON.stringify(teams);
+
+if (unchanged) {
+  console.log(`\n✓ ${Object.keys(teams).length} teams — no change since ${previous.updatedAt}`);
+  console.log('· records.json left untouched');
+  process.exit(0);
+}
+
 mkdirSync(resolve(ROOT, 'public/data'), { recursive: true });
 writeFileSync(
-  resolve(ROOT, 'public/data/records.json'),
+  OUT,
   JSON.stringify({ season: SEASON, updatedAt: new Date().toISOString(), teams }, null, 2) + '\n'
 );
 
