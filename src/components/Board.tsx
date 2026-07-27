@@ -22,8 +22,11 @@ function statusLabel(p: ScoredPick, seasonStarted: boolean) {
   if (!seasonStarted) return `${p.remaining} games`;
   if (p.status === 'won') return 'Cashed';
   if (p.status === 'lost') return 'Bust';
-  if (p.side === 'over') return `Needs ${p.need} more`;
-  return `${p.need} loss${p.need === 1 ? '' : 'es'} to clinch`;
+  // Deliberately terse. The long form ("3 losses to clinch") is wider than a
+  // phone can give this column, which pushed every card onto a second line —
+  // and across 132 rows the short form scans faster anyway. The adjacent
+  // "▲ OVER 6.5" already says which direction we need.
+  return `Needs ${p.need} ${p.side === 'over' ? 'W' : 'L'}`;
 }
 
 export default function Board({ players, picks, seasonStarted }: Props) {
@@ -143,11 +146,11 @@ export default function Board({ players, picks, seasonStarted }: Props) {
                     {cardName(p)}
                   </h3>
                   <div className="pick__line num">
-                    <span
-                      className="pick__owner"
-                      style={{ background: `var(--${p.player})` }}
-                      aria-hidden="true"
-                    />
+                    {/* Owner is named, not just colour-coded — on a phone the
+                        first question is always "which of these are mine". */}
+                    <span className="pick__tag" style={{ color: `var(--${p.player})` }}>
+                      {tagOf(p.player)}
+                    </span>
                     <span className={`pick__side pick__side--${p.side}`}>
                       {p.side === 'over' ? '▲ OVER' : '▼ UNDER'} {p.line}
                     </span>
@@ -155,12 +158,7 @@ export default function Board({ players, picks, seasonStarted }: Props) {
                 </div>
 
                 <div className="pick__right">
-                  <div
-                    className="pick__rec"
-                    style={seasonStarted ? undefined : { color: `var(--${p.player})`, fontSize: '0.72rem' }}
-                  >
-                    {seasonStarted ? `${p.wins}-${p.losses}` : tagOf(p.player)}
-                  </div>
+                  {seasonStarted && <div className="pick__rec">{`${p.wins}-${p.losses}`}</div>}
                   <div className="pick__status">{statusLabel(p, seasonStarted)}</div>
                 </div>
               </article>
