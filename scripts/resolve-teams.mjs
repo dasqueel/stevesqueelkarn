@@ -107,7 +107,7 @@ writeFileSync(
 for (const p of PLAYERS) {
   const mine = picks.filter((x) => x.player === p.id);
   const o = mine.filter((x) => x.side === 'over').length;
-  console.log(`${p.tag.padEnd(6)} ${p.name.padEnd(8)} ${mine.length} picks  (${o} over / ${mine.length - o} under)`);
+  console.log(`${p.name.padEnd(8)} ${mine.length} picks  (${o} over / ${mine.length - o} under)`);
 }
 console.log(`\n✓ ${picks.length} picks resolved, ${claimed.size} unique teams`);
 console.log('✓ wrote src/data/picks.json');

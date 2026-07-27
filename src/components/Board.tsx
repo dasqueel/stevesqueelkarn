@@ -30,7 +30,7 @@ function statusLabel(p: ScoredPick, seasonStarted: boolean) {
 }
 
 export default function Board({ players, picks, seasonStarted }: Props) {
-  const tagOf = (id: string) => players.find((p) => p.id === id)?.tag ?? id;
+  const ownerOf = (id: string) => players.find((p) => p.id === id)?.name ?? id;
 
   const [player, setPlayer] = useState<string>('all');
   const [status, setStatus] = useState<StatusFilter>('all');
@@ -143,8 +143,8 @@ export default function Board({ players, picks, seasonStarted }: Props) {
                   <div className="pick__line num">
                     {/* Owner is named, not just colour-coded — on a phone the
                         first question is always "which of these are mine". */}
-                    <span className="pick__tag" style={{ color: `var(--${p.player})` }}>
-                      {tagOf(p.player)}
+                    <span className="pick__owner" style={{ color: `var(--${p.player})` }}>
+                      {ownerOf(p.player)}
                     </span>
                     <span className={`pick__side pick__side--${p.side}`}>
                       {p.side === 'over' ? '▲ OVER' : '▼ UNDER'} {p.line}

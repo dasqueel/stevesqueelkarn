@@ -49,7 +49,6 @@ export interface TeamRecord {
 
 export interface Player {
   id: string;
-  tag: string;
   name: string;
   /** High school car, self-hosted under public/cars/. */
   car?: string;

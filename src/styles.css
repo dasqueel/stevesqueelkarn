@@ -669,13 +669,13 @@ a {
 .pick__side--over { color: var(--chalk); }
 .pick__side--under { color: var(--chalk-dim); }
 
-.pick__tag {
+.pick__owner {
   font-weight: 700;
   letter-spacing: 0.14em;
   flex: none;
 }
 
-.pick__tag::after {
+.pick__owner::after {
   content: '·';
   color: var(--chalk-faint);
   margin-left: 0.4rem;

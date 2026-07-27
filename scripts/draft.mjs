@@ -4,9 +4,9 @@
 
 // `car` is the high school ride, self-hosted under public/cars/.
 export const PLAYERS = [
-  { id: 'karn', tag: 'KAJP', name: 'Karn', car: '/cars/karn.jpg', carName: 'Honda Prelude' },
-  { id: 'steve', tag: 'SPM', name: 'Steve', car: '/cars/steve.jpg', carName: 'Ford F-150' },
-  { id: 'squeel', tag: 'NTB', name: 'Squeel', car: '/cars/squeel.jpg', carName: 'Olds Cutlass Supreme' },
+  { id: 'karn', name: 'Karn', car: '/cars/karn.jpg', carName: 'Honda Prelude' },
+  { id: 'steve', name: 'Steve', car: '/cars/steve.jpg', carName: 'Ford F-150' },
+  { id: 'squeel', name: 'Squeel', car: '/cars/squeel.jpg', carName: 'Olds Cutlass Supreme' },
 ];
 
 export const DRAFT = {

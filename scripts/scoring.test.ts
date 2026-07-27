@@ -104,8 +104,8 @@ test('need counts what is still required', () => {
 
 test('standings rank by points and break ties on ceiling', () => {
   const players = [
-    { id: 'a', tag: 'A', name: 'A' },
-    { id: 'b', tag: 'B', name: 'B' },
+    { id: 'a', name: 'A' },
+    { id: 'b', name: 'B' },
   ];
   const picks: Pick[] = [
     { ...pick('over', 5.5), player: 'a', espnId: '1' },
@@ -126,8 +126,8 @@ test('standings rank by points and break ties on ceiling', () => {
 
 test('identical records share a rank', () => {
   const players = [
-    { id: 'a', tag: 'A', name: 'A' },
-    { id: 'b', tag: 'B', name: 'B' },
+    { id: 'a', name: 'A' },
+    { id: 'b', name: 'B' },
   ];
   const picks: Pick[] = [
     { ...pick('over', 5.5), player: 'a', espnId: '1' },
