@@ -33,10 +33,7 @@ export default function Board({ players, picks, seasonStarted }: Props) {
   const tagOf = (id: string) => players.find((p) => p.id === id)?.tag ?? id;
 
   const [player, setPlayer] = useState<string>('all');
-  // PARKED — the State filter block below is commented out, so nothing sets
-  // this yet. Add `, setStatus` back here to un-park it. Stays 'all' meanwhile,
-  // which lets every pick through the status check.
-  const [status] = useState<StatusFilter>('all');
+  const [status, setStatus] = useState<StatusFilter>('all');
   const [side, setSide] = useState<SideFilter>('all');
   // PARKED — the Sort block below is commented out, so nothing sets this yet.
   // Add `, setSort` back here to un-park it. Stays 'draft' meanwhile, which
@@ -90,19 +87,17 @@ export default function Board({ players, picks, seasonStarted }: Props) {
           )}
         </div>
 
-        {/* PARKED — State filter. To bring it back, uncomment this block and
-            restore the useState line marked above.
         {seasonStarted && (
           <div className="fgroup">
+            {/* labelled because "All" also appears in the Who group */}
             <span className="fgroup__label">State</span>
             {chip(status === 'all', 'All', () => setStatus('all'))}
-            {chip(status === 'won', 'Cashed', () => setStatus('won'), 'var(--won)')}
             {chip(status === 'live', 'Alive', () => setStatus('live'))}
-            {chip(status === 'brink', 'On the brink', () => setStatus('brink'), 'var(--brink)')}
+            {chip(status === 'brink', 'Brink', () => setStatus('brink'), 'var(--brink)')}
+            {chip(status === 'won', 'Cashed', () => setStatus('won'), 'var(--won)')}
             {chip(status === 'lost', 'Bust', () => setStatus('lost'), 'var(--chalk-dim)')}
           </div>
         )}
-        */}
 
         <div className="fgroup">
           <span className="fgroup__label">Side</span>

@@ -112,7 +112,11 @@ a {
 .shell {
   max-width: var(--maxw);
   margin: 0 auto;
-  padding: 0 var(--gutter) 7rem;
+  /* safe-area insets keep content clear of rounded corners and the home
+     indicator when installed to the home screen, especially in landscape */
+  padding-left: max(var(--gutter), env(safe-area-inset-left));
+  padding-right: max(var(--gutter), env(safe-area-inset-right));
+  padding-bottom: calc(7rem + env(safe-area-inset-bottom));
 }
 
 /* numerals everywhere should line up in columns */
@@ -727,13 +731,31 @@ a {
     font-size: 0.68rem;
   }
 
-  .fgroup {
-    gap: 0.45rem;
+  /* Three wrapped groups ate 26% of a phone screen while stuck to the top.
+     One sideways-scrolling row costs ~7% and keeps every filter reachable.
+     The body itself never scrolls horizontally — only this strip does. */
+  .filters {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 0 1rem;
+    padding: 0.6rem var(--gutter);
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior-x: contain;
+    /* fades the right edge so it reads as "there's more this way" */
+    mask-image: linear-gradient(to right, #000 calc(100% - 26px), transparent);
+    -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 26px), transparent);
   }
 
-  .filters {
-    gap: 0.5rem 1rem;
-    padding: 0.6rem var(--gutter);
+  .filters::-webkit-scrollbar {
+    display: none;
+  }
+
+  .fgroup {
+    flex: none;
+    flex-wrap: nowrap;
+    gap: 0.45rem;
   }
 
   /* Small type that was fine on a monitor but tight in the hand. */
