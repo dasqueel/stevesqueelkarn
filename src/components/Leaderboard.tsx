@@ -27,21 +27,15 @@ export default function Leaderboard({ standings, seasonStarted }: Props) {
 
             {s.player.car && (
               <figure className="lb__car">
-                <img
-                  src={s.player.car}
-                  alt={`${s.player.name}'s high school car, a ${s.player.carName ?? 'car'}`}
-                  loading="lazy"
-                  width={474}
-                  height={316}
-                />
+                {/* alt is empty by design: the figcaption below already names
+                    the car, and it's the car — not a name — that identifies
+                    whose row this is. */}
+                <img src={s.player.car} alt="" loading="lazy" width={474} height={316} />
                 {s.player.carName && <figcaption className="num">{s.player.carName}</figcaption>}
               </figure>
             )}
 
             <div className="lb__id">
-              <div className="lb__tag num">{s.player.tag}</div>
-              <h2 className="lb__name">{s.player.name}</h2>
-
               <div className="lb__meta">
                 {seasonStarted ? (
                   <>
