@@ -3,17 +3,23 @@
     {
       "id": "karn",
       "tag": "KAJP",
-      "name": "Karn"
+      "name": "Karn",
+      "car": "/cars/karn.jpg",
+      "carName": "Honda Prelude"
     },
     {
       "id": "steve",
       "tag": "SPM",
-      "name": "Steve"
+      "name": "Steve",
+      "car": "/cars/steve.jpg",
+      "carName": "Ford F-150"
     },
     {
       "id": "squeel",
       "tag": "NTB",
-      "name": "Squeel"
+      "name": "Squeel",
+      "car": "/cars/squeel.jpg",
+      "carName": "Olds Cutlass Supreme"
     }
   ],
   "picks": [

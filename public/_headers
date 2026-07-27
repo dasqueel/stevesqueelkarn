@@ -16,6 +16,10 @@
 /manifest.webmanifest
   Cache-Control: public, max-age=86400, must-revalidate
 
+# The high school cars never change.
+/cars/*
+  Cache-Control: public, max-age=604800, must-revalidate
+
 /*
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin

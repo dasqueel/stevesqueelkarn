@@ -2,10 +2,11 @@
 // Each entry: [teamNameAsDrafted, "over" | "under", line]
 // Do not reorder: array order is draft order within each player.
 
+// `car` is the high school ride, self-hosted under public/cars/.
 export const PLAYERS = [
-  { id: 'karn', tag: 'KAJP', name: 'Karn' },
-  { id: 'steve', tag: 'SPM', name: 'Steve' },
-  { id: 'squeel', tag: 'NTB', name: 'Squeel' },
+  { id: 'karn', tag: 'KAJP', name: 'Karn', car: '/cars/karn.jpg', carName: 'Honda Prelude' },
+  { id: 'steve', tag: 'SPM', name: 'Steve', car: '/cars/steve.jpg', carName: 'Ford F-150' },
+  { id: 'squeel', tag: 'NTB', name: 'Squeel', car: '/cars/squeel.jpg', carName: 'Olds Cutlass Supreme' },
 ];
 
 export const DRAFT = {
