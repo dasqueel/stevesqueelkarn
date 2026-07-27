@@ -5,7 +5,6 @@ import { buildStandings, currentWeek, scorePick } from './lib/scoring.ts';
 import type { Pick, Player } from './lib/scoring.ts';
 import Masthead from './components/Masthead.tsx';
 import Leaderboard from './components/Leaderboard.tsx';
-import RaceChart from './components/RaceChart.tsx';
 import Board, { onBrink } from './components/Board.tsx';
 import Kickoff from './components/Kickoff.tsx';
 
@@ -37,7 +36,7 @@ export default function App() {
       .filter((d): d is string => Boolean(d))
       .sort()[0] ?? null;
 
-    return { records, week, standings, scored, kickoff, seasonStarted: week > 0 };
+    return { week, standings, scored, kickoff, seasonStarted: week > 0 };
   }, [state]);
 
   if (state.status === 'loading') {
@@ -60,17 +59,17 @@ export default function App() {
     );
   }
 
-  const { records, week, standings, scored, kickoff, seasonStarted } = view!;
+  const { week, standings, scored, kickoff, seasonStarted } = view!;
   const brinkCount = scored.filter(onBrink).length;
 
   return (
     <div className="shell">
       {state.data.demo && (
         <div className="demo-flag" role="status">
-          <strong>Demo data</strong>
+          <strong>Simulated</strong>
           <span>
-            Showing the {state.data.demo.season} season through week {state.data.demo.week} — not
-            live standings. Run <code>npm run data:records</code> to restore.
+            Invented results through week {state.data.demo.week} on the real schedule — these are
+            not live standings. Run <code>npm run data:records</code> to restore.
           </span>
         </div>
       )}
@@ -80,7 +79,6 @@ export default function App() {
         updatedAt={state.data.updatedAt}
         week={week}
         seasonStarted={seasonStarted}
-        totalPicks={picks.length}
       />
 
       {!seasonStarted && (
@@ -96,11 +94,6 @@ export default function App() {
           note={seasonStarted ? '1 point per pick that cashes' : '44 picks each'}
         />
         <Leaderboard standings={standings} seasonStarted={seasonStarted} />
-      </section>
-
-      <section className="section">
-        <SectionHead title="The Race" note="Points banked by week" />
-        <RaceChart players={players} picks={picks} records={records} currentWeek={week} />
       </section>
 
       <section className="section">

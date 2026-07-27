@@ -1,7 +1,7 @@
 // node --test scripts/scoring.test.ts
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { scorePick, buildStandings, standingsThroughWeek } from '../src/lib/scoring.ts';
+import { scorePick, buildStandings } from '../src/lib/scoring.ts';
 import type { Pick, TeamRecord, Game } from '../src/lib/scoring.ts';
 
 const pick = (side: 'over' | 'under', line: number): Pick => ({
@@ -137,16 +137,6 @@ test('identical records share a rank', () => {
   const table = buildStandings(players, picks, records);
   assert.equal(table[0].rank, 1);
   assert.equal(table[1].rank, 1);
-});
-
-test('week replay reconstructs an earlier snapshot', () => {
-  const players = [{ id: 'a', tag: 'A', name: 'A' }];
-  const picks: Pick[] = [{ ...pick('over', 2.5), player: 'a', espnId: '1' }];
-  // Wins in weeks 1-3, so the over cashes in week 3 but not week 2.
-  const records = { '1': { ...rec(3, 0), espnId: '1' } };
-
-  assert.equal(standingsThroughWeek(players, picks, records, 2)[0].points, 0);
-  assert.equal(standingsThroughWeek(players, picks, records, 3)[0].points, 1);
 });
 
 test('a missing team record does not crash scoring', () => {

@@ -56,14 +56,38 @@ usually a minute or two, occasionally up to an hour.
 
 ---
 
+---
+
+## 4. Give the updater database access
+
+The weekly job reads your MongoDB, so it needs the connection string as a repo
+secret. Run this yourself so the value never passes through anything else:
+
+```bash
+gh secret set MONGO_URL --repo dasqueel/stevesqueelkarn --body "$battlesqueelMongoUrl"
+```
+
+Or paste it in the browser: repo → **Settings** → **Secrets and variables** →
+**Actions** → **New repository secret**, named `MONGO_URL`.
+
+> **Check your Atlas network access.** GitHub's runners don't have fixed IPs, so
+> if your cluster restricts access by IP the job will fail to connect. Atlas →
+> **Network Access** → allow `0.0.0.0/0`, or the job needs to run somewhere with
+> a stable IP instead.
+
+The secret is safe in a public repo: it's encrypted, and this workflow has no
+`pull_request` trigger, so a fork's PR can never run with it in scope.
+
+---
+
 ## That's it — it now runs itself
 
-A GitHub Action re-reads ESPN every morning at 6am ET from August through
-December. When results actually change it commits the new data, and that push
-triggers a Cloudflare redeploy. Nobody has to touch anything all season.
+A GitHub Action re-reads your MongoDB every morning at 6am ET from August
+through December. When results actually change it commits the new data, and that
+push triggers a Cloudflare redeploy. Nobody has to touch anything all season.
 
-I already ran the workflow twice against the live repo to confirm it works
-end to end.
+Standings are only as fresh as the collection — whatever populates `cfbData26.games`
+sets the pace. If that job runs weekly, the site updates weekly.
 
 ### If you ever want to force an update
 

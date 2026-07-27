@@ -3,7 +3,6 @@ interface Props {
   updatedAt: string;
   week: number;
   seasonStarted: boolean;
-  totalPicks: number;
 }
 
 const fmt = (iso: string) =>
@@ -14,7 +13,7 @@ const fmt = (iso: string) =>
     minute: '2-digit',
   });
 
-export default function Masthead({ season, updatedAt, week, seasonStarted, totalPicks }: Props) {
+export default function Masthead({ season, updatedAt, week, seasonStarted }: Props) {
   return (
     <header className="mast">
       <div className="mast__kicker">
@@ -30,19 +29,12 @@ export default function Masthead({ season, updatedAt, week, seasonStarted, total
       </h1>
 
       <div className="mast__sub">
-        <span>
-          {seasonStarted ? (
-            <>
-              <span className="live-dot" aria-hidden="true" />
-              Through Week <b>{week}</b>
-            </>
-          ) : (
-            <>Draft locked · <b>{totalPicks}</b> picks on the board</>
-          )}
-        </span>
-        <span>
-          Regular season only <b>·</b> no bowls, no playoff, no title games
-        </span>
+        {seasonStarted && (
+          <span>
+            <span className="live-dot" aria-hidden="true" />
+            Through Week <b>{week}</b>
+          </span>
+        )}
         <span>
           Updated <b>{fmt(updatedAt)}</b>
         </span>

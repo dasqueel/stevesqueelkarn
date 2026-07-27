@@ -168,34 +168,6 @@ export function buildStandings(
   return rows;
 }
 
-/**
- * Rebuild standings as they stood after a given week, for the week-by-week
- * timeline. Replays each team's game log up to `week` instead of using the
- * season totals.
- */
-export function standingsThroughWeek(
-  players: Player[],
-  picks: Pick[],
-  records: Record<string, TeamRecord>,
-  week: number
-): Standing[] {
-  const snapshot: Record<string, TeamRecord> = {};
-
-  for (const [id, rec] of Object.entries(records)) {
-    const upTo = rec.games.filter((g) => g.completed && (g.week ?? 0) <= week);
-    const wins = upTo.filter((g) => g.result === 'W').length;
-    snapshot[id] = {
-      ...rec,
-      wins,
-      losses: upTo.length - wins,
-      played: upTo.length,
-      remaining: rec.scheduled - upTo.length,
-    };
-  }
-
-  return buildStandings(players, picks, snapshot);
-}
-
 /** Highest week with at least one completed game. 0 before the season starts. */
 export function currentWeek(records: Record<string, TeamRecord>): number {
   let max = 0;

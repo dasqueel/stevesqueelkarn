@@ -495,80 +495,6 @@ a {
 }
 
 /* ============================================================
-   RACE CHART
-   ============================================================ */
-
-.chart {
-  border: 1px solid var(--rule);
-  border-radius: 3px;
-  background: var(--felt);
-  padding: clamp(1.1rem, 2.5vw, 1.75rem);
-}
-
-.chart__legend {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.25rem;
-  margin-bottom: 1.1rem;
-}
-
-.chart__key {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-family: var(--mono);
-  font-size: 0.63rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--chalk-dim);
-}
-
-.chart__swatch {
-  width: 14px;
-  height: 3px;
-  border-radius: 99px;
-}
-
-.chart svg {
-  display: block;
-  width: 100%;
-  height: auto;
-  overflow: visible;
-}
-
-.chart__grid {
-  stroke: var(--rule-soft);
-  stroke-width: 1;
-}
-
-.chart__axis {
-  fill: var(--chalk-faint);
-  font-family: var(--mono);
-  font-size: 9px;
-  letter-spacing: 0.08em;
-}
-
-.chart__line {
-  fill: none;
-  stroke-width: 2;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-}
-
-.chart__empty {
-  display: grid;
-  place-items: center;
-  min-height: 200px;
-  text-align: center;
-  gap: 0.6rem;
-  color: var(--chalk-faint);
-  font-family: var(--mono);
-  font-size: 0.68rem;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-}
-
-/* ============================================================
    FILTERS
    ============================================================ */
 
@@ -620,31 +546,6 @@ a {
   background: var(--chip-on, var(--chalk));
   border-color: var(--chip-on, var(--chalk));
   font-weight: 700;
-}
-
-.search {
-  flex: 1;
-  min-width: 190px;
-  background: var(--felt);
-  border: 1px solid var(--rule);
-  border-radius: 2px;
-  padding: 0.45rem 0.75rem;
-  color: var(--chalk);
-  font-family: var(--mono);
-  font-size: 0.68rem;
-  letter-spacing: 0.06em;
-}
-
-.search::placeholder {
-  color: var(--chalk-faint);
-  text-transform: uppercase;
-  letter-spacing: 0.14em;
-  font-size: 0.6rem;
-}
-
-.search:focus {
-  outline: none;
-  border-color: var(--amber);
 }
 
 /* ============================================================

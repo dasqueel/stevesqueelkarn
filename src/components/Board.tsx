@@ -30,19 +30,22 @@ export default function Board({ players, picks, seasonStarted }: Props) {
   const tagOf = (id: string) => players.find((p) => p.id === id)?.tag ?? id;
 
   const [player, setPlayer] = useState<string>('all');
-  const [status, setStatus] = useState<StatusFilter>('all');
+  // PARKED — the State filter block below is commented out, so nothing sets
+  // this yet. Add `, setStatus` back here to un-park it. Stays 'all' meanwhile,
+  // which lets every pick through the status check.
+  const [status] = useState<StatusFilter>('all');
   const [side, setSide] = useState<SideFilter>('all');
-  const [sort, setSort] = useState<Sort>('draft');
-  const [q, setQ] = useState('');
+  // PARKED — the Sort block below is commented out, so nothing sets this yet.
+  // Add `, setSort` back here to un-park it. Stays 'draft' meanwhile, which
+  // keeps the board in draft order, grouped by player.
+  const [sort] = useState<Sort>('draft');
 
   const visible = useMemo(() => {
-    const needle = q.trim().toLowerCase();
     let out = picks.filter((p) => {
       if (player !== 'all' && p.player !== player) return false;
       if (side !== 'all' && p.side !== side) return false;
       if (status === 'brink' && !onBrink(p)) return false;
       if (status !== 'all' && status !== 'brink' && p.status !== status) return false;
-      if (needle && !`${p.display} ${p.draftName} ${p.abbr}`.toLowerCase().includes(needle)) return false;
       return true;
     });
 
@@ -53,7 +56,7 @@ export default function Board({ players, picks, seasonStarted }: Props) {
     else if (sort === 'status')
       out.sort((a, b) => rank[a.status] - rank[b.status] || a.team.localeCompare(b.team));
     return out;
-  }, [picks, player, status, side, sort, q]);
+  }, [picks, player, status, side, sort]);
 
   const chip = (
     active: boolean,
@@ -84,6 +87,8 @@ export default function Board({ players, picks, seasonStarted }: Props) {
           )}
         </div>
 
+        {/* PARKED — State filter. To bring it back, uncomment this block and
+            restore the useState line marked above.
         {seasonStarted && (
           <div className="fgroup">
             <span className="fgroup__label">State</span>
@@ -94,6 +99,7 @@ export default function Board({ players, picks, seasonStarted }: Props) {
             {chip(status === 'lost', 'Bust', () => setStatus('lost'), 'var(--chalk-dim)')}
           </div>
         )}
+        */}
 
         <div className="fgroup">
           <span className="fgroup__label">Side</span>
@@ -102,21 +108,16 @@ export default function Board({ players, picks, seasonStarted }: Props) {
           {chip(side === 'under', 'Under', () => setSide('under'))}
         </div>
 
+        {/* PARKED — Sort controls. To bring them back, uncomment this block and
+            restore the useState line marked above.
         <div className="fgroup">
-          <span className="fgroup__label">Sort</span>
           {chip(sort === 'draft', 'Draft', () => setSort('draft'))}
           {chip(sort === 'team', 'A–Z', () => setSort('team'))}
           {seasonStarted && chip(sort === 'wins', 'Wins', () => setSort('wins'))}
           {seasonStarted && chip(sort === 'status', 'State', () => setSort('status'))}
         </div>
+        */}
 
-        <input
-          className="search"
-          value={q}
-          onChange={(e) => setQ(e.target.value)}
-          placeholder="Find a team"
-          aria-label="Find a team"
-        />
       </div>
 
       {visible.length === 0 ? (

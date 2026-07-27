@@ -38,9 +38,14 @@ jobs:
       - name: Test scoring engine
         run: npm test
 
-      - name: Fetch records
+      # The connection string lives only here. It is never bundled and never
+      # reaches the browser — the published site reads static JSON and connects
+      # to nothing. This workflow deliberately has no `pull_request` trigger, so
+      # a fork's PR can never run with the secret in scope.
+      - name: Build records from MongoDB
         env:
           SEASON: ${{ inputs.season }}
+          MONGO_URL: ${{ secrets.MONGO_URL }}
         run: node scripts/fetch-records.mjs
 
       - name: Commit if changed
