@@ -95,6 +95,23 @@ test('an over is never held back by an incomplete schedule', () => {
   assert.equal(scorePick(pick('over', 5.5), rec(6, 0, 11, true)).status, 'won');
 });
 
+test('an unread team never scores as a decided pick', () => {
+  // A pick added to the board after the last data refresh has no entry in
+  // records.json. Scored off the 0-0 defaults the under would look safe and
+  // cash a phantom point, which is the dangerous half of this.
+  assert.equal(scorePick(pick('under', 7.5), undefined).status, 'live');
+  assert.equal(scorePick(pick('over', 7.5), undefined).status, 'live');
+});
+
+test('an unknown team contributes to ceiling, not to points', () => {
+  const players = [{ id: 'a', name: 'A' }];
+  const picks: Pick[] = [{ ...pick('under', 7.5), player: 'a', espnId: 'missing' }];
+  const [row] = buildStandings(players, picks, {});
+  assert.equal(row.points, 0);
+  assert.equal(row.live, 1);
+  assert.equal(row.ceiling, 1);
+});
+
 test('need counts what is still required', () => {
   assert.equal(scorePick(pick('over', 7.5), rec(3, 2)).need, 5); // needs 8 wins, has 3 -> 5 more
   assert.equal(scorePick(pick('under', 7.5), rec(3, 2)).need, 3); // needs 5 losses, has 2 -> 3 more
@@ -141,6 +158,8 @@ test('identical records share a rank', () => {
 
 test('a missing team record does not crash scoring', () => {
   const s = scorePick(pick('over', 5.5), undefined);
-  assert.equal(s.status, 'lost'); // 0 wins, 0 remaining
   assert.equal(s.games.length, 0);
+  // Not 'lost'. The 0-0 defaults make an over look mathematically dead, but a
+  // team absent from records.json has simply never been read — see below.
+  assert.equal(s.status, 'live');
 });

@@ -322,6 +322,21 @@
     },
     {
       "player": "karn",
+      "draftName": "Louisiana",
+      "side": "over",
+      "line": 7.5,
+      "espnId": "309",
+      "team": "Louisiana",
+      "mascot": "Ragin' Cajuns",
+      "display": "Louisiana Ragin' Cajuns",
+      "abbr": "UL",
+      "short": "Louisiana",
+      "color": "#ce181e",
+      "alt": "#000000",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/309.png"
+    },
+    {
+      "player": "karn",
       "draftName": "Maryland",
       "side": "over",
       "line": 4.5,
@@ -529,6 +544,21 @@
       "color": "#f56423",
       "alt": "#ffffff",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2534.png"
+    },
+    {
+      "player": "karn",
+      "draftName": "South Alabama",
+      "side": "over",
+      "line": 5.5,
+      "espnId": "6",
+      "team": "South Alabama",
+      "mascot": "Jaguars",
+      "display": "South Alabama Jaguars",
+      "abbr": "USA",
+      "short": "South Alabama",
+      "color": "#00205b",
+      "alt": "#bf0d3e",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png"
     },
     {
       "player": "karn",
@@ -847,6 +877,21 @@
     },
     {
       "player": "steve",
+      "draftName": "Georgia Southern",
+      "side": "over",
+      "line": 4.5,
+      "espnId": "290",
+      "team": "Georgia Southern",
+      "mascot": "Eagles",
+      "display": "Georgia Southern Eagles",
+      "abbr": "GASO",
+      "short": "GA Southern",
+      "color": "#041e42",
+      "alt": "#a3aaae",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/290.png"
+    },
+    {
+      "player": "steve",
       "draftName": "Hawaii",
       "side": "over",
       "line": 7.5,
@@ -1039,6 +1084,21 @@
       "color": "#ba0c2f",
       "alt": "#a8adb4",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png"
+    },
+    {
+      "player": "steve",
+      "draftName": "Oklahoma State",
+      "side": "under",
+      "line": 5.5,
+      "espnId": "197",
+      "team": "Oklahoma State",
+      "mascot": "Cowboys",
+      "display": "Oklahoma State Cowboys",
+      "abbr": "OKST",
+      "short": "Oklahoma St",
+      "color": "#fe5c00",
+      "alt": "#000000",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/197.png"
     },
     {
       "player": "steve",
@@ -1747,6 +1807,21 @@
     },
     {
       "player": "squeel",
+      "draftName": "Ohio",
+      "side": "under",
+      "line": 6.5,
+      "espnId": "195",
+      "team": "Ohio",
+      "mascot": "Bobcats",
+      "display": "Ohio Bobcats",
+      "abbr": "OHIO",
+      "short": "Ohio",
+      "color": "#154734",
+      "alt": "#ffffff",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/195.png"
+    },
+    {
+      "player": "squeel",
       "draftName": "Old Dominion",
       "side": "over",
       "line": 7.5,
@@ -1999,6 +2074,21 @@
       "color": "#ceb888",
       "alt": "#2c2a29",
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/154.png"
+    },
+    {
+      "player": "squeel",
+      "draftName": "Western Michigan",
+      "side": "over",
+      "line": 7.5,
+      "espnId": "2711",
+      "team": "Western Michigan",
+      "mascot": "Broncos",
+      "display": "Western Michigan Broncos",
+      "abbr": "WMU",
+      "short": "W Michigan",
+      "color": "#532e1f",
+      "alt": "#f1c500",
+      "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2711.png"
     }
   ]
 }

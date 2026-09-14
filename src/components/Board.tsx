@@ -19,12 +19,15 @@ export const onBrink = (p: ScoredPick) =>
 const cardName = (p: ScoredPick) => (p.team.length > 15 ? p.short : p.team);
 
 function statusLabel(p: ScoredPick, seasonStarted: boolean) {
+  // No games at all means the team isn't in records.json yet, not that it has
+  // an empty schedule — don't render that as a confident "0 games".
+  if (p.games.length === 0) return 'awaiting data';
   if (!seasonStarted) return `${p.remaining} games`;
   if (p.status === 'won') return 'Cashed';
   if (p.status === 'lost') return 'Bust';
   // Deliberately terse. The long form ("3 losses to clinch") is wider than a
   // phone can give this column, which pushed every card onto a second line —
-  // and across 132 rows the short form scans faster anyway. The adjacent
+  // and across 138 rows the short form scans faster anyway. The adjacent
   // "▲ OVER 6.5" already says which direction we need.
   return `Needs ${p.need} ${p.side === 'over' ? 'W' : 'L'}`;
 }

@@ -33,14 +33,21 @@ for (const t of teams) {
   byLocation.get(k).push(t);
 }
 
+// 138 FBS teams split three ways. An incomplete player is a warning, not a
+// failure; overshooting is an error, since it means a bad transcription.
+const PICKS_PER_PLAYER = 46;
+
 const errors = [];
+const warnings = [];
 const picks = [];
 const claimed = new Map(); // espn id -> "player:draftName", catches double-drafts
 
 for (const player of PLAYERS) {
   const entries = DRAFT[player.id];
-  if (entries.length !== 44) {
-    errors.push(`${player.name} has ${entries.length} picks, expected 44`);
+  if (entries.length > PICKS_PER_PLAYER) {
+    errors.push(`${player.name} has ${entries.length} picks, over the ${PICKS_PER_PLAYER} available`);
+  } else if (entries.length < PICKS_PER_PLAYER) {
+    warnings.push(`${player.name} has ${entries.length} of ${PICKS_PER_PLAYER} picks`);
   }
 
   for (const [draftName, side, line] of entries) {
@@ -103,6 +110,12 @@ writeFileSync(
   resolve(ROOT, 'src/data/picks.json'),
   JSON.stringify({ players: PLAYERS, picks }, null, 2) + '\n'
 );
+
+if (warnings.length) {
+  console.warn('Draft is incomplete:');
+  for (const w of warnings) console.warn('  ! ' + w);
+  console.warn('');
+}
 
 for (const p of PLAYERS) {
   const mine = picks.filter((x) => x.player === p.id);

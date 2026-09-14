@@ -1,45 +1,48 @@
 # STEVE · SQUEEL · KARN
 
-Season win-total pickem. Three players, 132 college football teams, one long season.
+Season win-total pickem. Three players, 138 college football teams, one long season.
 
 **Live:** https://stevesqueelkarn.com
 
 ## Rules
 
-- Each player drafted **44 teams**, taking the over or the under on that team's
-  season win total. 132 teams total, no team drafted twice.
-- **1 point** per pick that cashes. Max 44.
+- Each player drafted **46 teams**, taking the over or the under on that team's
+  season win total. 138 teams total, no team drafted twice.
+- **1 point** per pick that cashes. Max 46.
 - **Regular season wins only.** Conference championship games, bowls and the
   playoff do not count. Every line is a half-number, so nothing pushes.
 - Ties break on ceiling (the player with fewer busted picks is ahead).
 
 ## Where results come from
 
-Games come from the CollegeFootballData feed mirrored into MongoDB —
-database `cfbData26`, collection `games`. `scripts/fetch-records.mjs` reads it,
-counts each drafted team's regular-season wins, and writes
+Games come from ESPN's public college-football API. `scripts/fetch-records.mjs`
+reads one schedule per drafted team, counts regular-season wins, and writes
 `public/data/records.json`. A GitHub Action runs it daily from August through
 December; pushing the updated file is what triggers a Cloudflare Pages
 redeploy, so nobody has to touch anything.
 
+**Nothing in this project needs a credential.** The ESPN endpoint is public, so
+the fetcher runs the same on a laptop as on a GitHub runner — there is no API
+key, no database, and no repo secret to rotate or leak.
+
 **The published site connects to nothing.** It loads `records.json` as a static
-file, so there is no database access, no credentials, and no API from the
-browser. The connection string is used only in CI. The site also keeps working
-if the database is down — it just shows the last known results.
+file, so there is no API call from the browser at all. The site also keeps
+working if ESPN is down — it just shows the last known results.
 
 The site is a static build and reads `records.json` at runtime, so a data
 refresh never requires rebuilding the JavaScript.
 
 ### One wrinkle worth knowing
 
-CFBD files conference championship games under `seasonType: "regular"`, so a
-12-game team appears to have 13 regular-season games. `fetch-records.mjs`
-strips any game whose `notes` mention a championship. Without that, Ohio
-State's 2025 Big Ten title-game loss would have counted against its win total —
-their real regular season was 12-0, but the raw feed reports 12-1.
+ESPN files conference championship games under `seasontype=2` alongside the
+regular season, so a 12-game team appears to have 13 regular-season games.
+`fetch-records.mjs` strips any game whose `notes` headline mentions a
+championship. Without that, Ohio State's 2025 Big Ten title-game loss would
+have counted against its win total — their real regular season was 12-0, but
+the raw feed reports 12-1.
 
-This was verified by rebuilding the full 2025 season both ways: all 132 teams
-produced identical records, and the same 18 title games were excluded.
+Verified by rebuilding the full 2025 season: Ohio State comes back 12-0 with
+one title game excluded, and 19 title games are stripped across the board.
 
 ## Commands
 
@@ -49,12 +52,13 @@ npm run dev            # local dev server
 npm run build          # typecheck + production build to dist/
 npm test               # scoring engine tests
 
-npm run data:records   # rebuild records.json from MongoDB
+npm run data:records   # rebuild records.json from ESPN
 npm run data:teams     # re-resolve the draft to team ids
 ```
 
-`data:records` needs the connection string in `battlesqueelMongoUrl` (or
-`MONGO_URL`). Nothing else in the project needs credentials.
+Both read from public ESPN endpoints. No credentials, no `.env`, nothing to set
+up — run `npm run data:records` after a Saturday, commit the changed
+`records.json`, and the push redeploys the site.
 
 ### Seeing it mid-season
 
@@ -85,7 +89,7 @@ candidate IDs and writes nothing. Pin the right one in `ID_OVERRIDES`.
 ```
 scripts/draft.mjs           the draft board — source of truth
 scripts/resolve-teams.mjs   draft names -> team ids (one-time, uses ESPN)
-scripts/fetch-records.mjs   MongoDB -> public/data/records.json
+scripts/fetch-records.mjs   ESPN -> public/data/records.json
 scripts/demo-records.mjs    simulated results for previewing the site
 scripts/scoring.test.ts     tests for the clinch math
 src/lib/scoring.ts          contest rules: who has won, lost, or is still alive

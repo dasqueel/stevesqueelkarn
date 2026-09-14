@@ -425,7 +425,7 @@ a {
   font-weight: 400;
 }
 
-/* segmented bar: won / lost / still alive, out of 44 */
+/* segmented bar: won / lost / still alive, out of 46 */
 .bar {
   display: flex;
   height: 7px;

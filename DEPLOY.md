@@ -40,7 +40,7 @@ step 3 with no records to copy by hand.
 4. **Save and Deploy.**
 
 The first build takes a minute or two and ends on a `stevesqueelkarn.pages.dev`
-URL. Open it — you should see the countdown to kickoff and all 132 picks.
+URL. Open it — you should see the countdown to kickoff and all 138 picks.
 
 > Cloudflare needs **no database credentials**. It only bundles the app and
 > copies the already-committed `records.json`. It never opens a connection.
@@ -60,42 +60,26 @@ At this point the site is live — it just won't update itself yet.
 
 ---
 
-## 4. Give the updater database access
+## 4. Give the updater access to nothing
 
-The daily job reads your MongoDB, so it needs the connection string as a repo
-secret. Run this yourself so the value never passes through anything else:
+There is no step here. The daily job reads ESPN's public API, so there is no
+secret to set, no API key, and no database to open a firewall for.
+
+If the repo still has a `MONGO_URL` secret from an earlier setup, delete it —
+nothing reads it any more:
 
 ```bash
-gh secret set MONGO_URL --repo dasqueel/stevesqueelkarn --body "$battlesqueelMongoUrl"
+gh secret delete MONGO_URL --repo dasqueel/stevesqueelkarn
 ```
 
-Or paste it in the browser: repo → **Settings** → **Secrets and variables** →
-**Actions** → **New repository secret**, named `MONGO_URL`.
-
-The secret is safe in a public repo: it's encrypted, and this workflow has no
-`pull_request` trigger, so a fork's PR can never run with it in scope.
-
 ---
 
-## 5. Let GitHub's runners reach Atlas
-
-**This is the step most likely to fail.** GitHub's runners don't have fixed IPs,
-so if your cluster restricts access by IP the job can't connect.
-
-Atlas → **Network Access** → allow `0.0.0.0/0`.
-
-If you'd rather not open the cluster that wide, skip the automation entirely and
-update by hand — see *Manual mode* below. The site behaves identically.
-
----
-
-## 6. Prove it works
+## 5. Prove it works
 
 Repo → **Actions** → **Update records** → **Run workflow**.
 
-It should go green in about a minute. Expect `no change in records` — the data
-is already current, and the job deliberately does nothing when nothing moved.
-A red run here means step 4 or 5 isn't right.
+It should go green in about a minute. Expect `no change in records` if the data
+is already current — the job deliberately does nothing when nothing moved.
 
 ---
 
@@ -104,16 +88,15 @@ A red run here means step 4 or 5 isn't right.
 Every morning at 6am ET, August through December:
 
 ```
-MongoDB ──► GitHub Action ──► commit records.json ──► Cloudflare ──► live site
+ESPN ──► GitHub Action ──► commit records.json ──► Cloudflare ──► live site
 ```
 
 If results changed, it commits and the site redeploys within a couple of
 minutes. If nothing changed, it stops silently. No empty commits, no wasted
 builds, nothing for you to do.
 
-**Standings are only as fresh as the collection.** Whatever populates
-`cfbData26.games` sets the real pace — if that loader runs weekly, the site
-updates weekly no matter how often this job checks.
+**Standings are as fresh as ESPN.** Scores appear within minutes of a game
+going final, so a 6am run always has the full previous day.
 
 ### Things that need no attention
 
@@ -124,7 +107,7 @@ updates weekly no matter how often this job checks.
 - **The 8 teams with 11 scheduled games** resolve themselves once their
   non-conference slates are announced. Until then their picks are held pending
   rather than clinching early.
-- **Season's end** needs no switch. Once every game is played, all 132 picks
+- **Season's end** needs no switch. Once every game is played, all 138 picks
   resolve and the board shows final standings.
 
 ---
@@ -173,9 +156,8 @@ someone a point in November.
 
 Three things will need a hand — none of them mid-season:
 
-1. **The collection is hardcoded to `cfbData26`.** Point the job at next year's
-   data with a repo variable `CFB_DB`, or change the default in
-   `scripts/fetch-records.mjs`.
+1. **The season is inferred from the date.** `fetch-records.mjs` rolls over on
+   its own; pass `--season` only to rebuild an older year.
 2. **Re-draft.** Replace the picks in `scripts/draft.mjs` and run
    `npm run data:teams`.
 3. **Re-enable the schedule.** GitHub disables cron workflows after 60 days of

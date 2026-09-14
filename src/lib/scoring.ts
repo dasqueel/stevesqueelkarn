@@ -1,6 +1,6 @@
 // Contest rules
 // -------------
-//  * 1 point per correct pick. 44 picks each, max 44 points.
+//  * 1 point per correct pick. 46 picks each once the board is complete.
 //  * Regular season wins only — conference championships, bowls and the
 //    playoff do not count (stripped upstream in scripts/fetch-records.mjs).
 //  * Lines are all half-numbers, so nothing can push.
@@ -104,6 +104,11 @@ export function scorePick(pick: Pick, rec: TeamRecord | undefined): ScoredPick {
   } else {
     status = wins > pick.line ? 'lost' : maxWins < pick.line ? 'won' : 'live';
   }
+
+  // A team drafted since the last data refresh has no entry in records.json at
+  // all. The 0-0 defaults above would read as a decided pick — an under safe,
+  // an over already busted — so absence of evidence must not score as evidence.
+  if (!rec) status = 'live';
 
   // A team whose schedule is still missing a game has an understated
   // `remaining`, which can make an under look mathematically safe before it is.

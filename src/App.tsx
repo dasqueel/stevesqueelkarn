@@ -91,7 +91,7 @@ export default function App() {
       <section className="section">
         <SectionHead
           title={seasonStarted ? 'Standings' : 'The Field'}
-          note={seasonStarted ? '1 point per pick that cashes' : '44 picks each'}
+          note={seasonStarted ? '1 point per pick that cashes' : `${picks.length} picks drafted`}
         />
         <Leaderboard standings={standings} seasonStarted={seasonStarted} />
       </section>

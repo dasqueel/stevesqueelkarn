@@ -1,38 +1,28 @@
 #!/usr/bin/env node
-// Builds public/data/records.json from the CollegeFootballData games mirrored
-// into MongoDB (db cfbData26, collection games).
+// Builds public/data/records.json from ESPN's public college-football API.
 //
 //   node scripts/fetch-records.mjs
 //   node scripts/fetch-records.mjs --season 2026
 //
-// Connection string comes from battlesqueelMongoUrl (or MONGO_URL). It is used
-// only here — at CI time — so it never reaches the browser. The published site
-// reads the resulting static JSON and connects to nothing.
+// No credentials. No database. ESPN's team-schedule endpoint is public, so this
+// runs identically on a laptop and on a GitHub runner, and the published site
+// keeps reading the resulting static JSON exactly as before.
 //
-// IMPORTANT: CFBD files conference championship games under seasonType
-// "regular", so Ohio State's 2025 regular season comes back 12-1 across 13
-// games when it was really 12-0. This contest counts REGULAR SEASON ONLY, so
-// title games are stripped below by their `notes` headline. Bowls and the
-// playoff are seasonType "postseason" and are never read.
+// IMPORTANT: ESPN files conference championship games under seasonType 2
+// alongside the regular season, so Ohio State's 2025 season comes back 12-1
+// across 13 games when the real regular season was 12-0. This contest counts
+// REGULAR SEASON ONLY, so title games are stripped below by their `notes`
+// headline. Bowls and the playoff are seasonType 3 and are never requested.
 
 import { writeFileSync, mkdirSync, readFileSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { MongoClient } from 'mongodb';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const OUT = resolve(ROOT, 'public/data/records.json');
 
-const URL_ = process.env.battlesqueelMongoUrl || process.env.MONGO_URL;
-const DB = process.env.CFB_DB || 'cfbData26';
-const COLLECTION = process.env.CFB_COLLECTION || 'games';
-
-if (!URL_) {
-  console.error('No Mongo connection string.');
-  console.error('  local: battlesqueelMongoUrl should be exported in your shell');
-  console.error('  CI:    set it as the MONGO_URL repo secret');
-  process.exit(1);
-}
+const SCHEDULE = (id, season) =>
+  `https://site.api.espn.com/apis/site/v2/sports/football/college-football/teams/${id}/schedule?season=${season}&seasontype=2`;
 
 /** A season is named for the calendar year it kicks off in, so Jan/Feb still
  *  belong to the previous year's season. */
@@ -49,90 +39,55 @@ const SEASON = Number(
 
 const { picks } = JSON.parse(readFileSync(resolve(ROOT, 'src/data/picks.json'), 'utf8'));
 
-/** Conference title games carry a "… Championship" note; ordinary games either
- *  have none or a scheduling placeholder. This is the whole reason the raw
- *  regular-season record can't be trusted as-is. */
-const isConferenceChampionship = (game) => /championship/i.test(game.notes ?? '');
+/** Conference title games carry a "… Championship" note; ordinary games have
+ *  none. This is the whole reason ESPN's seasonType-2 list can't be trusted
+ *  as-is. */
+const isConferenceChampionship = (comp) =>
+  (comp.notes ?? []).some((n) => /championship/i.test(n.headline ?? ''));
 
-const client = new MongoClient(URL_, { serverSelectionTimeoutMS: 20000 });
-let games;
-try {
-  console.log(`Reading ${DB}.${COLLECTION} for the ${SEASON} regular season…`);
-  await client.connect();
-  games = await client
-    .db(DB)
-    .collection(COLLECTION)
-    .find(
-      { season: SEASON, seasonType: 'regular' },
-      {
-        projection: {
-          _id: 0,
-          week: 1, startDate: 1, completed: 1, notes: 1,
-          homeId: 1, homeTeam: 1, homePoints: 1,
-          awayId: 1, awayTeam: 1, awayPoints: 1,
-        },
-      }
-    )
-    .toArray();
-} catch (err) {
-  console.error(`\nCould not read from MongoDB: ${err.message}`);
-  console.error('If this is running in CI, check the cluster allows connections from');
-  console.error('GitHub-hosted runners (their IPs are not fixed).');
-  process.exit(1);
-} finally {
-  await client.close();
-}
-
-console.log(`  ${games.length} games returned`);
-if (games.length === 0) {
-  console.error(`\nNo ${SEASON} regular-season games in ${DB}.${COLLECTION}. Nothing written.`);
-  process.exit(1);
-}
-
-// CFBD ids share ESPN's id space, so the ids already in picks.json work as-is.
-const teams = {};
-for (const p of picks) {
-  teams[p.espnId] = {
-    espnId: p.espnId,
+/** One team's regular season, reduced to the fields the site scores against. */
+function readTeam(espnId, payload) {
+  const rec = {
+    espnId,
     wins: 0, losses: 0, played: 0, scheduled: 0, remaining: 0,
     excludedCCG: 0,
     scheduleIncomplete: false,
     games: [],
   };
-}
 
-let ccgStripped = 0;
-for (const g of games) {
-  for (const side of ['home', 'away']) {
-    const rec = teams[String(side === 'home' ? g.homeId : g.awayId)];
-    if (!rec) continue; // not a drafted team
+  for (const event of payload.events ?? []) {
+    const comp = event.competitions?.[0];
+    if (!comp) continue;
+    if (event.seasonType?.type !== undefined && event.seasonType.type !== 2) continue;
 
-    if (isConferenceChampionship(g)) {
+    if (isConferenceChampionship(comp)) {
       rec.excludedCCG++;
-      ccgStripped++;
       continue;
     }
 
-    const mine = side === 'home' ? g.homePoints : g.awayPoints;
-    const theirs = side === 'home' ? g.awayPoints : g.homePoints;
-    const completed = g.completed === true && mine != null && theirs != null;
+    const mine = comp.competitors?.find((c) => c.team?.id === espnId);
+    const theirs = comp.competitors?.find((c) => c.team?.id !== espnId);
+    if (!mine) continue;
+
+    const myScore = mine.score?.value ?? null;
+    const oppScore = theirs?.score?.value ?? null;
+    const completed = comp.status?.type?.completed === true && myScore !== null && oppScore !== null;
 
     rec.games.push({
-      week: g.week ?? null,
-      date: g.startDate ? new Date(g.startDate).toISOString() : null,
+      week: event.week?.number ?? null,
+      date: event.date ? new Date(event.date).toISOString() : null,
       completed,
-      result: completed ? (mine > theirs ? 'W' : 'L') : null,
-      score: completed ? `${mine}-${theirs}` : null,
-      homeAway: side,
-      oppName: (side === 'home' ? g.awayTeam : g.homeTeam) ?? 'TBD',
-      oppAbbr: null,
-      oppLogo: null,
+      // `winner` is ESPN's own call; fall back to the scoreline if it's absent.
+      // (`false` is a real answer here, so `??` — not `||` — is what's wanted.)
+      result: completed ? ((mine.winner ?? myScore > oppScore) ? 'W' : 'L') : null,
+      score: completed ? `${myScore}-${oppScore}` : null,
+      homeAway: mine.homeAway ?? null,
+      oppName: theirs?.team?.displayName ?? 'TBD',
+      oppAbbr: theirs?.team?.abbreviation ?? null,
+      oppLogo: theirs?.team?.logos?.[0]?.href ?? null,
     });
   }
-}
 
-const missing = [];
-for (const rec of Object.values(teams)) {
   rec.games.sort((a, b) => (a.date ?? '').localeCompare(b.date ?? ''));
   const played = rec.games.filter((g) => g.completed);
   rec.wins = played.filter((g) => g.result === 'W').length;
@@ -144,14 +99,62 @@ for (const rec of Object.values(teams)) {
   // Understated `remaining` could clinch an UNDER too early, so the UI holds
   // such picks pending until the schedule fills in.
   rec.scheduleIncomplete = rec.games.length < 12;
-  if (rec.games.length === 0) missing.push(rec.espnId);
+  return rec;
 }
 
+/** Small pool so 130-odd requests don't arrive as one burst. */
+async function mapPool(items, size, fn) {
+  const out = new Array(items.length);
+  let next = 0;
+  await Promise.all(
+    Array.from({ length: Math.min(size, items.length) }, async () => {
+      while (next < items.length) {
+        const i = next++;
+        out[i] = await fn(items[i]);
+      }
+    })
+  );
+  return out;
+}
+
+const ids = [...new Set(picks.map((p) => p.espnId))];
+console.log(`Reading ${ids.length} team schedules from ESPN for the ${SEASON} regular season…`);
+
+const failures = [];
+const results = await mapPool(ids, 8, async (id) => {
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    try {
+      const res = await fetch(SCHEDULE(id, SEASON));
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      return readTeam(id, await res.json());
+    } catch (err) {
+      if (attempt === 3) {
+        failures.push(`${id}: ${err.message}`);
+        return null;
+      }
+      await new Promise((r) => setTimeout(r, 400 * attempt));
+    }
+  }
+});
+
+if (failures.length) {
+  console.error(`\n${failures.length} team schedule(s) could not be read:`);
+  for (const f of failures) console.error('  ✗ ' + f);
+  console.error('\nAborting without writing. Standings would be wrong.');
+  process.exit(1);
+}
+
+const teams = {};
+for (const rec of results) teams[rec.espnId] = rec;
+
+// A drafted team with an empty schedule means ESPN has nothing for that season
+// yet — writing it would score every one of its picks off a 0-0 record.
+const missing = results.filter((r) => r.games.length === 0);
 if (missing.length) {
-  console.error(`\n${missing.length} drafted team(s) had no games in the collection:`);
-  for (const id of missing) {
-    const p = picks.find((x) => x.espnId === id);
-    console.error('  ✗ ' + (p ? p.display : id));
+  console.error(`\n${missing.length} drafted team(s) had no ${SEASON} games:`);
+  for (const rec of missing) {
+    const p = picks.find((x) => x.espnId === rec.espnId);
+    console.error('  ✗ ' + (p ? p.display : rec.espnId));
   }
   console.error('\nAborting without writing. Standings would be wrong.');
   process.exit(1);
@@ -171,7 +174,7 @@ const unchanged =
   previous?.season === SEASON && JSON.stringify(previous.teams) === JSON.stringify(teams);
 
 if (unchanged) {
-  console.log(`\n✓ ${Object.keys(teams).length} teams — no change since ${previous.updatedAt}`);
+  console.log(`\n✓ ${ids.length} teams — no change since ${previous.updatedAt}`);
   console.log('· records.json left untouched');
   process.exit(0);
 }
@@ -182,9 +185,10 @@ writeFileSync(
   JSON.stringify({ season: SEASON, updatedAt: new Date().toISOString(), teams }, null, 2) + '\n'
 );
 
-const totalPlayed = Object.values(teams).reduce((n, t) => n + t.played, 0);
-const anomalies = Object.values(teams).filter((t) => t.scheduleIncomplete);
-console.log(`\n✓ ${Object.keys(teams).length} teams`);
+const totalPlayed = results.reduce((n, t) => n + t.played, 0);
+const ccgStripped = results.reduce((n, t) => n + t.excludedCCG, 0);
+const anomalies = results.filter((t) => t.scheduleIncomplete);
+console.log(`\n✓ ${ids.length} teams`);
 console.log(`✓ ${totalPlayed} completed games counted`);
 console.log(`✓ ${ccgStripped} conference championship game(s) excluded`);
 if (anomalies.length) {
