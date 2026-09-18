@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updatedAt": "2026-09-17T15:28:52.769Z",
+  "updatedAt": "2026-09-18T14:52:51.499Z",
   "teams": {
     "2": {
       "espnId": "2",
@@ -7194,10 +7194,10 @@
     "183": {
       "espnId": "183",
       "wins": 1,
-      "losses": 1,
-      "played": 2,
+      "losses": 2,
+      "played": 3,
       "scheduled": 12,
-      "remaining": 10,
+      "remaining": 9,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -7226,9 +7226,9 @@
         {
           "week": 3,
           "date": "2026-09-17T23:30:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "L",
+          "score": "13-27",
           "homeAway": "away",
           "oppName": "Pittsburgh Panthers",
           "oppAbbr": "PITT",
@@ -8766,11 +8766,11 @@
     },
     "221": {
       "espnId": "221",
-      "wins": 2,
+      "wins": 3,
       "losses": 0,
-      "played": 2,
+      "played": 3,
       "scheduled": 12,
-      "remaining": 10,
+      "remaining": 9,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -8799,9 +8799,9 @@
         {
           "week": 3,
           "date": "2026-09-17T23:30:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "W",
+          "score": "27-13",
           "homeAway": "home",
           "oppName": "Syracuse Orange",
           "oppAbbr": "SYR",
