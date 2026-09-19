@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updatedAt": "2026-09-18T14:52:51.499Z",
+  "updatedAt": "2026-09-19T14:15:14.986Z",
   "teams": {
     "2": {
       "espnId": "2",
@@ -6474,10 +6474,10 @@
     "154": {
       "espnId": "154",
       "wins": 2,
-      "losses": 0,
-      "played": 2,
+      "losses": 1,
+      "played": 3,
       "scheduled": 12,
-      "remaining": 10,
+      "remaining": 9,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -6506,9 +6506,9 @@
         {
           "week": 3,
           "date": "2026-09-18T23:30:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "L",
+          "score": "20-33",
           "homeAway": "home",
           "oppName": "Miami Hurricanes",
           "oppAbbr": "MIA",
@@ -9775,10 +9775,10 @@
     "248": {
       "espnId": "248",
       "wins": 2,
-      "losses": 0,
-      "played": 2,
+      "losses": 1,
+      "played": 3,
       "scheduled": 12,
-      "remaining": 10,
+      "remaining": 9,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -9807,9 +9807,9 @@
         {
           "week": 3,
           "date": "2026-09-19T00:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "L",
+          "score": "26-28",
           "homeAway": "away",
           "oppName": "Texas Tech Red Raiders",
           "oppAbbr": "TTU",
@@ -16099,11 +16099,11 @@
     },
     "2390": {
       "espnId": "2390",
-      "wins": 2,
+      "wins": 3,
       "losses": 0,
-      "played": 2,
+      "played": 3,
       "scheduled": 12,
-      "remaining": 10,
+      "remaining": 9,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -16132,9 +16132,9 @@
         {
           "week": 3,
           "date": "2026-09-18T23:30:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "W",
+          "score": "33-20",
           "homeAway": "away",
           "oppName": "Wake Forest Demon Deacons",
           "oppAbbr": "WAKE",
@@ -17395,11 +17395,11 @@
     },
     "2483": {
       "espnId": "2483",
-      "wins": 1,
+      "wins": 2,
       "losses": 1,
-      "played": 2,
+      "played": 3,
       "scheduled": 12,
-      "remaining": 10,
+      "remaining": 9,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -17428,9 +17428,9 @@
         {
           "week": 3,
           "date": "2026-09-19T02:30:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "W",
+          "score": "84-0",
           "homeAway": "home",
           "oppName": "Portland State Vikings",
           "oppAbbr": "PRST",
@@ -18979,11 +18979,11 @@
     },
     "2641": {
       "espnId": "2641",
-      "wins": 2,
+      "wins": 3,
       "losses": 0,
-      "played": 2,
+      "played": 3,
       "scheduled": 12,
-      "remaining": 10,
+      "remaining": 9,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -19012,9 +19012,9 @@
         {
           "week": 3,
           "date": "2026-09-19T00:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "W",
+          "score": "28-26",
           "homeAway": "home",
           "oppName": "Houston Cougars",
           "oppAbbr": "HOU",
