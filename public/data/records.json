@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updatedAt": "2026-09-20T14:37:38.471Z",
+  "updatedAt": "2026-09-21T16:55:16.793Z",
   "teams": {
     "2": {
       "espnId": "2",
@@ -1354,7 +1354,7 @@
         },
         {
           "week": 5,
-          "date": "2026-10-03T04:00:00.000Z",
+          "date": "2026-10-03T16:00:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -2506,7 +2506,7 @@
         },
         {
           "week": 5,
-          "date": "2026-10-03T04:00:00.000Z",
+          "date": "2026-10-03T19:30:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -4367,7 +4367,7 @@
         },
         {
           "week": 5,
-          "date": "2026-10-03T04:00:00.000Z",
+          "date": "2026-10-03T19:30:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -4799,7 +4799,7 @@
         },
         {
           "week": 5,
-          "date": "2026-10-03T04:00:00.000Z",
+          "date": "2026-10-03T16:00:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -6239,7 +6239,7 @@
         },
         {
           "week": 5,
-          "date": "2026-10-03T04:00:00.000Z",
+          "date": "2026-10-03T19:30:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -6527,7 +6527,7 @@
         },
         {
           "week": 5,
-          "date": "2026-10-03T04:00:00.000Z",
+          "date": "2026-10-03T16:00:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -10692,7 +10692,7 @@
         },
         {
           "week": 5,
-          "date": "2026-10-03T04:00:00.000Z",
+          "date": "2026-10-03T19:30:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -17881,7 +17881,7 @@
         },
         {
           "week": 5,
-          "date": "2026-10-03T04:00:00.000Z",
+          "date": "2026-10-03T16:00:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
