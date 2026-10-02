@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updatedAt": "2026-09-29T16:50:20.789Z",
+  "updatedAt": "2026-10-02T16:33:59.579Z",
   "teams": {
     "2": {
       "espnId": "2",
@@ -4458,10 +4458,10 @@
     "98": {
       "espnId": "98",
       "wins": 1,
-      "losses": 3,
-      "played": 4,
+      "losses": 4,
+      "played": 5,
       "scheduled": 12,
-      "remaining": 8,
+      "remaining": 7,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -4512,9 +4512,9 @@
         {
           "week": 5,
           "date": "2026-10-02T00:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "L",
+          "score": "13-34",
           "homeAway": "away",
           "oppName": "New Mexico State Aggies",
           "oppAbbr": "NMSU",
@@ -6905,11 +6905,11 @@
     },
     "166": {
       "espnId": "166",
-      "wins": 1,
+      "wins": 2,
       "losses": 3,
-      "played": 4,
+      "played": 5,
       "scheduled": 12,
-      "remaining": 8,
+      "remaining": 7,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -6960,9 +6960,9 @@
         {
           "week": 5,
           "date": "2026-10-02T00:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "W",
+          "score": "34-13",
           "homeAway": "home",
           "oppName": "Western Kentucky Hilltoppers",
           "oppAbbr": "WKU",
@@ -8202,10 +8202,10 @@
     "202": {
       "espnId": "202",
       "wins": 3,
-      "losses": 1,
-      "played": 4,
+      "losses": 2,
+      "played": 5,
       "scheduled": 12,
-      "remaining": 8,
+      "remaining": 7,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -8256,9 +8256,9 @@
         {
           "week": 5,
           "date": "2026-10-02T01:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "L",
+          "score": "44-45",
           "homeAway": "home",
           "oppName": "North Texas Mean Green",
           "oppAbbr": "UNT",
@@ -9108,7 +9108,7 @@
         },
         {
           "week": 5,
-          "date": "2026-10-03T19:30:00.000Z",
+          "date": "2026-10-03T15:00:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -9918,11 +9918,11 @@
     },
     "249": {
       "espnId": "249",
-      "wins": 2,
+      "wins": 3,
       "losses": 2,
-      "played": 4,
+      "played": 5,
       "scheduled": 12,
-      "remaining": 8,
+      "remaining": 7,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -9973,9 +9973,9 @@
         {
           "week": 5,
           "date": "2026-10-02T01:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "W",
+          "score": "45-44",
           "homeAway": "away",
           "oppName": "Tulsa Golden Hurricane",
           "oppAbbr": "TLSA",
@@ -16585,7 +16585,7 @@
         },
         {
           "week": 5,
-          "date": "2026-10-03T19:30:00.000Z",
+          "date": "2026-10-03T15:00:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
