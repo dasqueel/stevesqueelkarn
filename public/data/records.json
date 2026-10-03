@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updatedAt": "2026-10-02T16:33:59.579Z",
+  "updatedAt": "2026-10-03T15:05:31.980Z",
   "teams": {
     "2": {
       "espnId": "2",
@@ -2309,10 +2309,10 @@
     "48": {
       "espnId": "48",
       "wins": 2,
-      "losses": 2,
-      "played": 4,
+      "losses": 3,
+      "played": 5,
       "scheduled": 12,
-      "remaining": 8,
+      "remaining": 7,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -2363,9 +2363,9 @@
         {
           "week": 5,
           "date": "2026-10-02T23:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "L",
+          "score": "14-30",
           "homeAway": "home",
           "oppName": "Liberty Flames",
           "oppAbbr": "LIB",
@@ -3737,11 +3737,11 @@
     },
     "77": {
       "espnId": "77",
-      "wins": 2,
+      "wins": 3,
       "losses": 1,
-      "played": 3,
+      "played": 4,
       "scheduled": 12,
-      "remaining": 9,
+      "remaining": 8,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -3781,9 +3781,9 @@
         {
           "week": 5,
           "date": "2026-10-03T00:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "W",
+          "score": "34-13",
           "homeAway": "home",
           "oppName": "Penn State Nittany Lions",
           "oppAbbr": "PSU",
@@ -8479,10 +8479,10 @@
     "213": {
       "espnId": "213",
       "wins": 3,
-      "losses": 1,
-      "played": 4,
+      "losses": 2,
+      "played": 5,
       "scheduled": 12,
-      "remaining": 8,
+      "remaining": 7,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -8533,9 +8533,9 @@
         {
           "week": 5,
           "date": "2026-10-03T00:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "L",
+          "score": "13-34",
           "homeAway": "away",
           "oppName": "Northwestern Wildcats",
           "oppAbbr": "NU",
@@ -8766,11 +8766,11 @@
     },
     "221": {
       "espnId": "221",
-      "wins": 4,
+      "wins": 5,
       "losses": 0,
-      "played": 4,
+      "played": 5,
       "scheduled": 12,
-      "remaining": 8,
+      "remaining": 7,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -8821,9 +8821,9 @@
         {
           "week": 5,
           "date": "2026-10-02T23:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "W",
+          "score": "35-33",
           "homeAway": "away",
           "oppName": "Virginia Tech Hokies",
           "oppAbbr": "VT",
@@ -10783,10 +10783,10 @@
     "259": {
       "espnId": "259",
       "wins": 4,
-      "losses": 0,
-      "played": 4,
+      "losses": 1,
+      "played": 5,
       "scheduled": 12,
-      "remaining": 8,
+      "remaining": 7,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -10837,9 +10837,9 @@
         {
           "week": 5,
           "date": "2026-10-02T23:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "L",
+          "score": "33-35",
           "homeAway": "home",
           "oppName": "Pittsburgh Panthers",
           "oppAbbr": "PITT",
@@ -15811,11 +15811,11 @@
     },
     "2335": {
       "espnId": "2335",
-      "wins": 3,
+      "wins": 4,
       "losses": 1,
-      "played": 4,
+      "played": 5,
       "scheduled": 12,
-      "remaining": 8,
+      "remaining": 7,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -15866,9 +15866,9 @@
         {
           "week": 5,
           "date": "2026-10-02T23:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "W",
+          "score": "30-14",
           "homeAway": "away",
           "oppName": "Delaware Blue Hens",
           "oppAbbr": "DEL",
