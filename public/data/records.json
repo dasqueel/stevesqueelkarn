@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updatedAt": "2026-10-06T17:06:03.277Z",
+  "updatedAt": "2026-10-07T17:43:10.004Z",
   "teams": {
     "2": {
       "espnId": "2",
@@ -17972,10 +17972,10 @@
     "2572": {
       "espnId": "2572",
       "wins": 1,
-      "losses": 3,
-      "played": 4,
+      "losses": 4,
+      "played": 5,
       "scheduled": 12,
-      "remaining": 8,
+      "remaining": 7,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -18026,9 +18026,9 @@
         {
           "week": 6,
           "date": "2026-10-07T00:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "L",
+          "score": "34-55",
           "homeAway": "away",
           "oppName": "Troy Trojans",
           "oppAbbr": "TROY",
@@ -19267,11 +19267,11 @@
     },
     "2653": {
       "espnId": "2653",
-      "wins": 2,
+      "wins": 3,
       "losses": 2,
-      "played": 4,
+      "played": 5,
       "scheduled": 12,
-      "remaining": 8,
+      "remaining": 7,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -19322,9 +19322,9 @@
         {
           "week": 6,
           "date": "2026-10-07T00:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "W",
+          "score": "55-34",
           "homeAway": "home",
           "oppName": "Southern Miss Golden Eagles",
           "oppAbbr": "USM",
