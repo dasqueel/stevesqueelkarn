@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updatedAt": "2026-10-07T17:43:10.004Z",
+  "updatedAt": "2026-10-08T17:47:29.322Z",
   "teams": {
     "2": {
       "espnId": "2",
@@ -634,7 +634,7 @@
         },
         {
           "week": 6,
-          "date": "2026-10-11T01:30:00.000Z",
+          "date": "2026-10-11T02:30:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -2596,11 +2596,11 @@
     },
     "55": {
       "espnId": "55",
-      "wins": 3,
+      "wins": 4,
       "losses": 2,
-      "played": 5,
+      "played": 6,
       "scheduled": 12,
-      "remaining": 7,
+      "remaining": 6,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -2662,9 +2662,9 @@
         {
           "week": 6,
           "date": "2026-10-07T23:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "W",
+          "score": "27-26",
           "homeAway": "away",
           "oppName": "Kennesaw State Owls",
           "oppAbbr": "KENN",
@@ -3381,7 +3381,7 @@
         },
         {
           "week": 6,
-          "date": "2026-10-11T01:30:00.000Z",
+          "date": "2026-10-11T02:30:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -6906,10 +6906,10 @@
     "166": {
       "espnId": "166",
       "wins": 2,
-      "losses": 3,
-      "played": 5,
+      "losses": 4,
+      "played": 6,
       "scheduled": 12,
-      "remaining": 7,
+      "remaining": 6,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -6970,10 +6970,10 @@
         },
         {
           "week": 6,
-          "date": "2026-10-07T23:30:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "date": "2026-10-08T00:04:00.000Z",
+          "completed": true,
+          "result": "L",
+          "score": "3-22",
           "homeAway": "away",
           "oppName": "Florida International Panthers",
           "oppAbbr": "FIU",
@@ -12788,10 +12788,10 @@
     "338": {
       "espnId": "338",
       "wins": 1,
-      "losses": 3,
-      "played": 4,
+      "losses": 4,
+      "played": 5,
       "scheduled": 12,
-      "remaining": 8,
+      "remaining": 7,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -12842,9 +12842,9 @@
         {
           "week": 6,
           "date": "2026-10-07T23:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "L",
+          "score": "26-27",
           "homeAway": "home",
           "oppName": "Jacksonville State Gamecocks",
           "oppAbbr": "JXST",
@@ -14947,11 +14947,11 @@
     },
     "2229": {
       "espnId": "2229",
-      "wins": 2,
+      "wins": 3,
       "losses": 2,
-      "played": 4,
+      "played": 5,
       "scheduled": 12,
-      "remaining": 8,
+      "remaining": 7,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -15001,10 +15001,10 @@
         },
         {
           "week": 6,
-          "date": "2026-10-07T23:30:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "date": "2026-10-08T00:04:00.000Z",
+          "completed": true,
+          "result": "W",
+          "score": "22-3",
           "homeAway": "home",
           "oppName": "New Mexico State Aggies",
           "oppAbbr": "NMSU",
