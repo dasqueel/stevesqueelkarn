@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updatedAt": "2026-10-16T15:18:38.541Z",
+  "updatedAt": "2026-10-17T14:06:57.061Z",
   "teams": {
     "2": {
       "espnId": "2",
@@ -9055,10 +9055,10 @@
     "235": {
       "espnId": "235",
       "wins": 5,
-      "losses": 1,
-      "played": 6,
+      "losses": 2,
+      "played": 7,
       "scheduled": 12,
-      "remaining": 6,
+      "remaining": 5,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -9131,9 +9131,9 @@
         {
           "week": 7,
           "date": "2026-10-16T23:30:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "L",
+          "score": "17-31",
           "homeAway": "away",
           "oppName": "Tulane Green Wave",
           "oppAbbr": "TULN",
@@ -10926,11 +10926,11 @@
     },
     "264": {
       "espnId": "264",
-      "wins": 3,
+      "wins": 4,
       "losses": 3,
-      "played": 6,
+      "played": 7,
       "scheduled": 12,
-      "remaining": 6,
+      "remaining": 5,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -11003,9 +11003,9 @@
         {
           "week": 7,
           "date": "2026-10-17T00:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "W",
+          "score": "38-26",
           "homeAway": "away",
           "oppName": "Purdue Boilermakers",
           "oppAbbr": "PUR",
@@ -12223,10 +12223,10 @@
     "324": {
       "espnId": "324",
       "wins": 2,
-      "losses": 4,
-      "played": 6,
+      "losses": 5,
+      "played": 7,
       "scheduled": 12,
-      "remaining": 6,
+      "remaining": 5,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -12299,9 +12299,9 @@
         {
           "week": 7,
           "date": "2026-10-17T00:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "L",
+          "score": "32-35",
           "homeAway": "home",
           "oppName": "App State Mountaineers",
           "oppAbbr": "APP",
@@ -13651,11 +13651,11 @@
     },
     "2026": {
       "espnId": "2026",
-      "wins": 3,
+      "wins": 4,
       "losses": 2,
-      "played": 5,
+      "played": 6,
       "scheduled": 12,
-      "remaining": 7,
+      "remaining": 6,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -13717,9 +13717,9 @@
         {
           "week": 7,
           "date": "2026-10-17T00:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "W",
+          "score": "35-32",
           "homeAway": "away",
           "oppName": "Coastal Carolina Chanticleers",
           "oppAbbr": "CCU",
@@ -17540,10 +17540,10 @@
     "2509": {
       "espnId": "2509",
       "wins": 3,
-      "losses": 3,
-      "played": 6,
+      "losses": 4,
+      "played": 7,
       "scheduled": 12,
-      "remaining": 6,
+      "remaining": 5,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -17616,9 +17616,9 @@
         {
           "week": 7,
           "date": "2026-10-17T00:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "L",
+          "score": "26-38",
           "homeAway": "home",
           "oppName": "Washington Huskies",
           "oppAbbr": "WASH",
@@ -19411,11 +19411,11 @@
     },
     "2655": {
       "espnId": "2655",
-      "wins": 2,
+      "wins": 3,
       "losses": 3,
-      "played": 5,
+      "played": 6,
       "scheduled": 12,
-      "remaining": 7,
+      "remaining": 6,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -19477,9 +19477,9 @@
         {
           "week": 7,
           "date": "2026-10-16T23:30:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "W",
+          "score": "31-17",
           "homeAway": "home",
           "oppName": "Memphis Tigers",
           "oppAbbr": "MEM",
