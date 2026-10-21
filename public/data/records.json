@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updatedAt": "2026-10-20T15:35:41.794Z",
+  "updatedAt": "2026-10-21T15:53:02.429Z",
   "teams": {
     "2": {
       "espnId": "2",
@@ -293,10 +293,10 @@
     "6": {
       "espnId": "6",
       "wins": 4,
-      "losses": 2,
-      "played": 6,
+      "losses": 3,
+      "played": 7,
       "scheduled": 12,
-      "remaining": 6,
+      "remaining": 5,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -369,9 +369,9 @@
         {
           "week": 8,
           "date": "2026-10-20T23:30:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "L",
+          "score": "13-20",
           "homeAway": "away",
           "oppName": "Marshall Thundering Herd",
           "oppAbbr": "MRSH",
@@ -1675,7 +1675,7 @@
         },
         {
           "week": 9,
-          "date": "2026-10-31T04:00:00.000Z",
+          "date": "2026-10-31T20:15:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -2308,11 +2308,11 @@
     },
     "48": {
       "espnId": "48",
-      "wins": 2,
+      "wins": 3,
       "losses": 4,
-      "played": 6,
+      "played": 7,
       "scheduled": 12,
-      "remaining": 6,
+      "remaining": 5,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -2385,9 +2385,9 @@
         {
           "week": 8,
           "date": "2026-10-20T23:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "W",
+          "score": "61-38",
           "homeAway": "home",
           "oppName": "Missouri State Bears",
           "oppAbbr": "MOST",
@@ -11358,11 +11358,11 @@
     },
     "276": {
       "espnId": "276",
-      "wins": 3,
+      "wins": 4,
       "losses": 3,
-      "played": 6,
+      "played": 7,
       "scheduled": 12,
-      "remaining": 6,
+      "remaining": 5,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -11435,9 +11435,9 @@
         {
           "week": 8,
           "date": "2026-10-20T23:30:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "W",
+          "score": "20-13",
           "homeAway": "home",
           "oppName": "South Alabama Jaguars",
           "oppAbbr": "USA",
@@ -14948,10 +14948,10 @@
     "2229": {
       "espnId": "2229",
       "wins": 3,
-      "losses": 3,
-      "played": 6,
+      "losses": 4,
+      "played": 7,
       "scheduled": 12,
-      "remaining": 6,
+      "remaining": 5,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -15024,9 +15024,9 @@
         {
           "week": 8,
           "date": "2026-10-20T23:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "L",
+          "score": "23-26",
           "homeAway": "home",
           "oppName": "Middle Tennessee Blue Raiders",
           "oppAbbr": "MTSU",
@@ -16243,11 +16243,11 @@
     },
     "2393": {
       "espnId": "2393",
-      "wins": 3,
+      "wins": 4,
       "losses": 3,
-      "played": 6,
+      "played": 7,
       "scheduled": 12,
-      "remaining": 6,
+      "remaining": 5,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -16320,9 +16320,9 @@
         {
           "week": 8,
           "date": "2026-10-20T23:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "W",
+          "score": "26-23",
           "homeAway": "away",
           "oppName": "Florida International Panthers",
           "oppAbbr": "FIU",
@@ -17050,7 +17050,7 @@
         },
         {
           "week": 9,
-          "date": "2026-10-31T04:00:00.000Z",
+          "date": "2026-10-31T20:15:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -18260,10 +18260,10 @@
     "2623": {
       "espnId": "2623",
       "wins": 2,
-      "losses": 4,
-      "played": 6,
+      "losses": 5,
+      "played": 7,
       "scheduled": 12,
-      "remaining": 6,
+      "remaining": 5,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -18336,9 +18336,9 @@
         {
           "week": 8,
           "date": "2026-10-20T23:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "L",
+          "score": "38-61",
           "homeAway": "away",
           "oppName": "Delaware Blue Hens",
           "oppAbbr": "DEL",
