@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updatedAt": "2026-10-21T15:53:02.429Z",
+  "updatedAt": "2026-10-22T15:49:38.888Z",
   "teams": {
     "2": {
       "espnId": "2",
@@ -6905,11 +6905,11 @@
     },
     "166": {
       "espnId": "166",
-      "wins": 2,
+      "wins": 3,
       "losses": 4,
-      "played": 6,
+      "played": 7,
       "scheduled": 12,
-      "remaining": 6,
+      "remaining": 5,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -6982,9 +6982,9 @@
         {
           "week": 8,
           "date": "2026-10-22T00:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "W",
+          "score": "30-24",
           "homeAway": "away",
           "oppName": "Sam Houston Bearkats",
           "oppAbbr": "SHSU",
@@ -17684,10 +17684,10 @@
     "2534": {
       "espnId": "2534",
       "wins": 1,
-      "losses": 5,
-      "played": 6,
+      "losses": 6,
+      "played": 7,
       "scheduled": 12,
-      "remaining": 6,
+      "remaining": 5,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -17760,9 +17760,9 @@
         {
           "week": 8,
           "date": "2026-10-22T00:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "L",
+          "score": "24-30",
           "homeAway": "home",
           "oppName": "New Mexico State Aggies",
           "oppAbbr": "NMSU",
