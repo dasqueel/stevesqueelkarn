@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updatedAt": "2026-10-22T15:49:38.888Z",
+  "updatedAt": "2026-10-23T15:40:33.539Z",
   "teams": {
     "2": {
       "espnId": "2",
@@ -6042,10 +6042,10 @@
     "151": {
       "espnId": "151",
       "wins": 3,
-      "losses": 3,
-      "played": 6,
+      "losses": 4,
+      "played": 7,
       "scheduled": 12,
-      "remaining": 6,
+      "remaining": 5,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -6118,9 +6118,9 @@
         {
           "week": 8,
           "date": "2026-10-22T23:30:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "L",
+          "score": "34-41",
           "homeAway": "away",
           "oppName": "Memphis Tigers",
           "oppAbbr": "MEM",
@@ -9054,11 +9054,11 @@
     },
     "235": {
       "espnId": "235",
-      "wins": 5,
+      "wins": 6,
       "losses": 2,
-      "played": 7,
+      "played": 8,
       "scheduled": 12,
-      "remaining": 5,
+      "remaining": 4,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -9142,9 +9142,9 @@
         {
           "week": 8,
           "date": "2026-10-22T23:30:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "W",
+          "score": "41-34",
           "homeAway": "home",
           "oppName": "East Carolina Pirates",
           "oppAbbr": "ECU",
@@ -10495,10 +10495,10 @@
     "256": {
       "espnId": "256",
       "wins": 7,
-      "losses": 0,
-      "played": 7,
+      "losses": 1,
+      "played": 8,
       "scheduled": 12,
-      "remaining": 5,
+      "remaining": 4,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -10582,9 +10582,9 @@
         {
           "week": 8,
           "date": "2026-10-22T23:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "L",
+          "score": "31-34",
           "homeAway": "away",
           "oppName": "App State Mountaineers",
           "oppAbbr": "APP",
@@ -12788,10 +12788,10 @@
     "338": {
       "espnId": "338",
       "wins": 1,
-      "losses": 5,
-      "played": 6,
+      "losses": 6,
+      "played": 7,
       "scheduled": 12,
-      "remaining": 6,
+      "remaining": 5,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -12864,9 +12864,9 @@
         {
           "week": 8,
           "date": "2026-10-22T23:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "L",
+          "score": "6-34",
           "homeAway": "home",
           "oppName": "Liberty Flames",
           "oppAbbr": "LIB",
@@ -13651,11 +13651,11 @@
     },
     "2026": {
       "espnId": "2026",
-      "wins": 4,
+      "wins": 5,
       "losses": 2,
-      "played": 6,
+      "played": 7,
       "scheduled": 12,
-      "remaining": 6,
+      "remaining": 5,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -13728,9 +13728,9 @@
         {
           "week": 8,
           "date": "2026-10-22T23:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "W",
+          "score": "34-31",
           "homeAway": "home",
           "oppName": "James Madison Dukes",
           "oppAbbr": "JMU",
@@ -15811,11 +15811,11 @@
     },
     "2335": {
       "espnId": "2335",
-      "wins": 5,
+      "wins": 6,
       "losses": 1,
-      "played": 6,
+      "played": 7,
       "scheduled": 12,
-      "remaining": 6,
+      "remaining": 5,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -15888,9 +15888,9 @@
         {
           "week": 8,
           "date": "2026-10-22T23:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "W",
+          "score": "34-6",
           "homeAway": "away",
           "oppName": "Kennesaw State Owls",
           "oppAbbr": "KENN",
