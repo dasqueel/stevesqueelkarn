@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updatedAt": "2026-10-25T14:54:42.102Z",
+  "updatedAt": "2026-10-26T17:12:44.306Z",
   "teams": {
     "2": {
       "espnId": "2",
@@ -2550,7 +2550,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-07T17:00:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -3126,7 +3126,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-08T00:30:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -4411,7 +4411,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-08T00:30:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -4843,7 +4843,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-07T17:00:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -5995,7 +5995,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-07T17:30:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -6283,7 +6283,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-07T17:30:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -6571,7 +6571,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-07T20:30:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -7291,7 +7291,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-07T17:00:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -9008,7 +9008,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-07T17:00:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
