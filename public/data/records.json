@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updatedAt": "2026-10-26T17:12:44.306Z",
+  "updatedAt": "2026-10-27T16:18:24.349Z",
   "teams": {
     "2": {
       "espnId": "2",
@@ -102,7 +102,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-07T17:45:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -246,7 +246,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-07T20:30:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -390,7 +390,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-07T22:00:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -534,7 +534,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-07T17:45:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -678,7 +678,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-08T00:30:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -977,7 +977,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-04T05:00:00.000Z",
+          "date": "2026-11-05T00:00:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -1254,7 +1254,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-07T21:00:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -2118,7 +2118,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-08T00:30:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -2838,7 +2838,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-08T00:45:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -3270,7 +3270,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-08T00:30:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -3414,7 +3414,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-08T02:30:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -4267,7 +4267,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-07T23:15:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -4699,7 +4699,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-07T20:30:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -4987,7 +4987,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-04T05:00:00.000Z",
+          "date": "2026-11-05T00:00:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -5131,7 +5131,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-07T17:30:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -5707,7 +5707,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-07T17:00:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -5851,7 +5851,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-08T00:30:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -6859,7 +6859,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-07T17:30:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -7003,7 +7003,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T22:00:00.000Z",
+          "date": "2026-11-08T01:00:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -7579,7 +7579,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-04T00:00:00.000Z",
+          "date": "2026-11-04T01:00:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -8155,7 +8155,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-08T00:45:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -8299,7 +8299,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-07T17:00:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -9296,7 +9296,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-07T21:15:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -9584,7 +9584,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-07T21:00:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -9728,7 +9728,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-07T20:00:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -10016,7 +10016,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-07T21:00:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -10160,7 +10160,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-07T17:00:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -10304,7 +10304,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-07T17:00:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -10448,7 +10448,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-07T17:00:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -11312,7 +11312,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-07T17:30:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -11456,7 +11456,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-07T20:30:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -11888,7 +11888,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-07T20:30:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -12043,7 +12043,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-07T18:00:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -12176,7 +12176,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-07T22:00:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -12320,7 +12320,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-07T18:00:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -12741,7 +12741,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-07T20:30:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -13029,7 +13029,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-07T21:15:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -13749,7 +13749,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-07T19:30:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -14037,7 +14037,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-04T05:00:00.000Z",
+          "date": "2026-11-05T00:00:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -14181,7 +14181,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-04T00:00:00.000Z",
+          "date": "2026-11-04T01:00:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -14469,7 +14469,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-04T05:00:00.000Z",
+          "date": "2026-11-05T00:30:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -14768,7 +14768,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-04T05:00:00.000Z",
+          "date": "2026-11-05T00:30:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -14901,7 +14901,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-06T01:00:00.000Z",
+          "date": "2026-11-06T00:30:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -15189,7 +15189,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-07T19:30:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -15909,7 +15909,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T22:00:00.000Z",
+          "date": "2026-11-08T01:00:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -16053,7 +16053,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-07T21:00:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -16629,7 +16629,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-07T20:30:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -17349,7 +17349,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-07T21:00:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -17637,7 +17637,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-07T17:30:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -18213,7 +18213,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-07T20:00:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -18645,7 +18645,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-07T23:15:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -18789,7 +18789,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-06T01:00:00.000Z",
+          "date": "2026-11-06T00:30:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -18933,7 +18933,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-08T02:30:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -19221,7 +19221,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-04T05:00:00.000Z",
+          "date": "2026-11-05T00:00:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -19365,7 +19365,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-07T21:00:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -19509,7 +19509,7 @@
         },
         {
           "week": 10,
-          "date": "2026-11-07T05:00:00.000Z",
+          "date": "2026-11-07T17:00:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
