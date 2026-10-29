@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updatedAt": "2026-10-28T17:03:17.159Z",
+  "updatedAt": "2026-10-29T17:21:27.740Z",
   "teams": {
     "2": {
       "espnId": "2",
@@ -2596,11 +2596,11 @@
     },
     "55": {
       "espnId": "55",
-      "wins": 5,
+      "wins": 6,
       "losses": 2,
-      "played": 7,
+      "played": 8,
       "scheduled": 12,
-      "remaining": 5,
+      "remaining": 4,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -2684,9 +2684,9 @@
         {
           "week": 9,
           "date": "2026-10-29T00:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "W",
+          "score": "24-0",
           "homeAway": "away",
           "oppName": "New Mexico State Aggies",
           "oppAbbr": "NMSU",
@@ -6906,10 +6906,10 @@
     "166": {
       "espnId": "166",
       "wins": 3,
-      "losses": 4,
-      "played": 7,
+      "losses": 5,
+      "played": 8,
       "scheduled": 12,
-      "remaining": 5,
+      "remaining": 4,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -6993,9 +6993,9 @@
         {
           "week": 9,
           "date": "2026-10-29T00:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "L",
+          "score": "0-24",
           "homeAway": "home",
           "oppName": "Jacksonville State Gamecocks",
           "oppAbbr": "JXST",
@@ -12787,11 +12787,11 @@
     },
     "338": {
       "espnId": "338",
-      "wins": 1,
+      "wins": 2,
       "losses": 6,
-      "played": 7,
+      "played": 8,
       "scheduled": 12,
-      "remaining": 5,
+      "remaining": 4,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -12875,9 +12875,9 @@
         {
           "week": 9,
           "date": "2026-10-28T23:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "W",
+          "score": "44-28",
           "homeAway": "away",
           "oppName": "Middle Tennessee Blue Raiders",
           "oppAbbr": "MTSU",
@@ -16244,10 +16244,10 @@
     "2393": {
       "espnId": "2393",
       "wins": 4,
-      "losses": 3,
-      "played": 7,
+      "losses": 4,
+      "played": 8,
       "scheduled": 12,
-      "remaining": 5,
+      "remaining": 4,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -16331,9 +16331,9 @@
         {
           "week": 9,
           "date": "2026-10-28T23:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "L",
+          "score": "28-44",
           "homeAway": "home",
           "oppName": "Kennesaw State Owls",
           "oppAbbr": "KENN",
