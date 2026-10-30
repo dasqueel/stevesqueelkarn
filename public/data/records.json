@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updatedAt": "2026-10-29T17:21:27.740Z",
+  "updatedAt": "2026-10-30T16:58:14.157Z",
   "teams": {
     "2": {
       "espnId": "2",
@@ -9918,11 +9918,11 @@
     },
     "249": {
       "espnId": "249",
-      "wins": 5,
+      "wins": 6,
       "losses": 2,
-      "played": 7,
+      "played": 8,
       "scheduled": 12,
-      "remaining": 5,
+      "remaining": 4,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -10006,9 +10006,9 @@
         {
           "week": 9,
           "date": "2026-10-29T23:30:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "W",
+          "score": "48-41",
           "homeAway": "home",
           "oppName": "Florida Atlantic Owls",
           "oppAbbr": "FAU",
@@ -10495,10 +10495,10 @@
     "256": {
       "espnId": "256",
       "wins": 7,
-      "losses": 1,
-      "played": 8,
+      "losses": 2,
+      "played": 9,
       "scheduled": 12,
-      "remaining": 4,
+      "remaining": 3,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -10593,9 +10593,9 @@
         {
           "week": 9,
           "date": "2026-10-29T23:30:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "L",
+          "score": "21-24",
           "homeAway": "home",
           "oppName": "Troy Trojans",
           "oppAbbr": "TROY",
@@ -14804,10 +14804,10 @@
     "2226": {
       "espnId": "2226",
       "wins": 5,
-      "losses": 2,
-      "played": 7,
+      "losses": 3,
+      "played": 8,
       "scheduled": 12,
-      "remaining": 5,
+      "remaining": 4,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -14891,9 +14891,9 @@
         {
           "week": 9,
           "date": "2026-10-29T23:30:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "L",
+          "score": "41-48",
           "homeAway": "away",
           "oppName": "North Texas Mean Green",
           "oppAbbr": "UNT",
@@ -19267,11 +19267,11 @@
     },
     "2653": {
       "espnId": "2653",
-      "wins": 3,
+      "wins": 4,
       "losses": 4,
-      "played": 7,
+      "played": 8,
       "scheduled": 12,
-      "remaining": 5,
+      "remaining": 4,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -19355,9 +19355,9 @@
         {
           "week": 9,
           "date": "2026-10-29T23:30:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "W",
+          "score": "24-21",
           "homeAway": "away",
           "oppName": "James Madison Dukes",
           "oppAbbr": "JMU",
