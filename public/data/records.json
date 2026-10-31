@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updatedAt": "2026-10-30T16:58:14.157Z",
+  "updatedAt": "2026-10-31T15:59:16.353Z",
   "teams": {
     "2": {
       "espnId": "2",
@@ -868,11 +868,11 @@
     },
     "16": {
       "espnId": "16",
-      "wins": 1,
+      "wins": 2,
       "losses": 7,
-      "played": 8,
+      "played": 9,
       "scheduled": 12,
-      "remaining": 4,
+      "remaining": 3,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -967,9 +967,9 @@
         {
           "week": 9,
           "date": "2026-10-31T02:30:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "W",
+          "score": "31-10",
           "homeAway": "home",
           "oppName": "Kent State Golden Flashes",
           "oppAbbr": "KENT",
@@ -9342,11 +9342,11 @@
     },
     "239": {
       "espnId": "239",
-      "wins": 4,
+      "wins": 5,
       "losses": 3,
-      "played": 7,
+      "played": 8,
       "scheduled": 12,
-      "remaining": 5,
+      "remaining": 4,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -9430,9 +9430,9 @@
         {
           "week": 9,
           "date": "2026-10-30T23:30:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "W",
+          "score": "41-9",
           "homeAway": "away",
           "oppName": "UCF Knights",
           "oppAbbr": "UCF",
@@ -14228,10 +14228,10 @@
     "2116": {
       "espnId": "2116",
       "wins": 4,
-      "losses": 3,
-      "played": 7,
+      "losses": 4,
+      "played": 8,
       "scheduled": 12,
-      "remaining": 5,
+      "remaining": 4,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -14315,9 +14315,9 @@
         {
           "week": 9,
           "date": "2026-10-30T23:30:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "L",
+          "score": "9-41",
           "homeAway": "home",
           "oppName": "Baylor Bears",
           "oppAbbr": "BAY",
@@ -15668,10 +15668,10 @@
     "2309": {
       "espnId": "2309",
       "wins": 3,
-      "losses": 5,
-      "played": 8,
+      "losses": 6,
+      "played": 9,
       "scheduled": 12,
-      "remaining": 4,
+      "remaining": 3,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -15766,9 +15766,9 @@
         {
           "week": 9,
           "date": "2026-10-31T02:30:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "L",
+          "score": "10-31",
           "homeAway": "away",
           "oppName": "Sacramento State Hornets",
           "oppAbbr": "SAC",
@@ -16532,10 +16532,10 @@
     "2429": {
       "espnId": "2429",
       "wins": 1,
-      "losses": 6,
-      "played": 7,
+      "losses": 7,
+      "played": 8,
       "scheduled": 12,
-      "remaining": 5,
+      "remaining": 4,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -16619,9 +16619,9 @@
         {
           "week": 9,
           "date": "2026-10-30T23:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "L",
+          "score": "31-38",
           "homeAway": "home",
           "oppName": "Tulane Green Wave",
           "oppAbbr": "TULN",
@@ -19411,11 +19411,11 @@
     },
     "2655": {
       "espnId": "2655",
-      "wins": 3,
+      "wins": 4,
       "losses": 4,
-      "played": 7,
+      "played": 8,
       "scheduled": 12,
-      "remaining": 5,
+      "remaining": 4,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -19499,9 +19499,9 @@
         {
           "week": 9,
           "date": "2026-10-30T23:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "W",
+          "score": "38-31",
           "homeAway": "away",
           "oppName": "Charlotte 49ers",
           "oppAbbr": "CLT",
