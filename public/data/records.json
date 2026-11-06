@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updatedAt": "2026-11-05T18:36:54.677Z",
+  "updatedAt": "2026-11-06T17:51:46.151Z",
   "teams": {
     "2": {
       "espnId": "2",
@@ -7169,7 +7169,7 @@
         },
         {
           "week": 12,
-          "date": "2026-11-22T02:00:00.000Z",
+          "date": "2026-11-21T02:00:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -7180,7 +7180,7 @@
         },
         {
           "week": 13,
-          "date": "2026-11-28T21:30:00.000Z",
+          "date": "2026-11-27T21:30:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -10494,11 +10494,11 @@
     },
     "256": {
       "espnId": "256",
-      "wins": 7,
+      "wins": 8,
       "losses": 2,
-      "played": 9,
+      "played": 10,
       "scheduled": 12,
-      "remaining": 3,
+      "remaining": 2,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -10604,9 +10604,9 @@
         {
           "week": 10,
           "date": "2026-11-06T01:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "W",
+          "score": "54-23",
           "homeAway": "away",
           "oppName": "Southern Miss Golden Eagles",
           "oppAbbr": "USM",
@@ -13494,7 +13494,7 @@
         },
         {
           "week": 13,
-          "date": "2026-11-28T21:30:00.000Z",
+          "date": "2026-11-27T21:30:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -14803,11 +14803,11 @@
     },
     "2226": {
       "espnId": "2226",
-      "wins": 5,
+      "wins": 6,
       "losses": 3,
-      "played": 8,
+      "played": 9,
       "scheduled": 12,
-      "remaining": 4,
+      "remaining": 3,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -14902,9 +14902,9 @@
         {
           "week": 10,
           "date": "2026-11-06T00:30:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "W",
+          "score": "60-29",
           "homeAway": "home",
           "oppName": "UTSA Roadrunners",
           "oppAbbr": "UTSA",
@@ -17972,10 +17972,10 @@
     "2572": {
       "espnId": "2572",
       "wins": 3,
-      "losses": 5,
-      "played": 8,
+      "losses": 6,
+      "played": 9,
       "scheduled": 12,
-      "remaining": 4,
+      "remaining": 3,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -18070,9 +18070,9 @@
         {
           "week": 10,
           "date": "2026-11-06T01:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "L",
+          "score": "23-54",
           "homeAway": "home",
           "oppName": "James Madison Dukes",
           "oppAbbr": "JMU",
@@ -18692,10 +18692,10 @@
     "2636": {
       "espnId": "2636",
       "wins": 7,
-      "losses": 1,
-      "played": 8,
+      "losses": 2,
+      "played": 9,
       "scheduled": 12,
-      "remaining": 4,
+      "remaining": 3,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -18790,9 +18790,9 @@
         {
           "week": 10,
           "date": "2026-11-06T00:30:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "L",
+          "score": "29-60",
           "homeAway": "away",
           "oppName": "Florida Atlantic Owls",
           "oppAbbr": "FAU",
@@ -19819,7 +19819,7 @@
         },
         {
           "week": 12,
-          "date": "2026-11-22T02:00:00.000Z",
+          "date": "2026-11-21T02:00:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
