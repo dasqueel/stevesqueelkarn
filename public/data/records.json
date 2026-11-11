@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updatedAt": "2026-11-10T18:32:12.673Z",
+  "updatedAt": "2026-11-11T18:29:40.205Z",
   "teams": {
     "2": {
       "espnId": "2",
@@ -3015,7 +3015,7 @@
         },
         {
           "week": 13,
-          "date": "2026-11-27T05:00:00.000Z",
+          "date": "2026-11-28T05:00:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -6172,7 +6172,7 @@
         },
         {
           "week": 13,
-          "date": "2026-11-27T05:00:00.000Z",
+          "date": "2026-11-28T05:00:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -7337,11 +7337,11 @@
     },
     "189": {
       "espnId": "189",
-      "wins": 2,
+      "wins": 3,
       "losses": 7,
-      "played": 9,
+      "played": 10,
       "scheduled": 12,
-      "remaining": 3,
+      "remaining": 2,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -7447,9 +7447,9 @@
         {
           "week": 11,
           "date": "2026-11-11T00:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "W",
+          "score": "33-28",
           "homeAway": "home",
           "oppName": "Kent State Golden Flashes",
           "oppAbbr": "KENT",
@@ -7481,11 +7481,11 @@
     },
     "193": {
       "espnId": "193",
-      "wins": 5,
+      "wins": 6,
       "losses": 4,
-      "played": 9,
+      "played": 10,
       "scheduled": 12,
-      "remaining": 3,
+      "remaining": 2,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -7591,9 +7591,9 @@
         {
           "week": 11,
           "date": "2026-11-11T01:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "W",
+          "score": "34-17",
           "homeAway": "home",
           "oppName": "Ohio Bobcats",
           "oppAbbr": "OHIO",
@@ -7770,10 +7770,10 @@
     "195": {
       "espnId": "195",
       "wins": 7,
-      "losses": 2,
-      "played": 9,
+      "losses": 3,
+      "played": 10,
       "scheduled": 12,
-      "remaining": 3,
+      "remaining": 2,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -7879,9 +7879,9 @@
         {
           "week": 11,
           "date": "2026-11-11T01:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "L",
+          "score": "17-34",
           "homeAway": "away",
           "oppName": "Miami (OH) RedHawks",
           "oppAbbr": "M-OH",
@@ -13508,10 +13508,10 @@
     "2006": {
       "espnId": "2006",
       "wins": 1,
-      "losses": 8,
-      "played": 9,
+      "losses": 9,
+      "played": 10,
       "scheduled": 12,
-      "remaining": 3,
+      "remaining": 2,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -13617,9 +13617,9 @@
         {
           "week": 11,
           "date": "2026-11-11T00:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "L",
+          "score": "14-42",
           "homeAway": "home",
           "oppName": "Western Michigan Broncos",
           "oppAbbr": "WMU",
@@ -14779,7 +14779,7 @@
         },
         {
           "week": 12,
-          "date": "2026-11-18T00:00:00.000Z",
+          "date": "2026-11-17T23:00:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -14934,7 +14934,7 @@
         },
         {
           "week": 13,
-          "date": "2026-11-27T05:00:00.000Z",
+          "date": "2026-11-28T05:00:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -15668,10 +15668,10 @@
     "2309": {
       "espnId": "2309",
       "wins": 3,
-      "losses": 6,
-      "played": 9,
+      "losses": 7,
+      "played": 10,
       "scheduled": 12,
-      "remaining": 3,
+      "remaining": 2,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -15777,9 +15777,9 @@
         {
           "week": 11,
           "date": "2026-11-11T00:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "L",
+          "score": "28-33",
           "homeAway": "away",
           "oppName": "Bowling Green Falcons",
           "oppAbbr": "BGSU",
@@ -19542,7 +19542,7 @@
         },
         {
           "week": 13,
-          "date": "2026-11-27T05:00:00.000Z",
+          "date": "2026-11-28T05:00:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -19555,11 +19555,11 @@
     },
     "2711": {
       "espnId": "2711",
-      "wins": 6,
+      "wins": 7,
       "losses": 3,
-      "played": 9,
+      "played": 10,
       "scheduled": 12,
-      "remaining": 3,
+      "remaining": 2,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -19665,9 +19665,9 @@
         {
           "week": 11,
           "date": "2026-11-11T00:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "W",
+          "score": "42-14",
           "homeAway": "away",
           "oppName": "Akron Zips",
           "oppAbbr": "AKR",
@@ -19675,7 +19675,7 @@
         },
         {
           "week": 12,
-          "date": "2026-11-18T00:00:00.000Z",
+          "date": "2026-11-17T23:00:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
