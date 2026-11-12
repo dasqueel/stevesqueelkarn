@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updatedAt": "2026-11-11T18:29:40.205Z",
+  "updatedAt": "2026-11-12T18:45:14.645Z",
   "teams": {
     "2": {
       "espnId": "2",
@@ -869,10 +869,10 @@
     "16": {
       "espnId": "16",
       "wins": 2,
-      "losses": 8,
-      "played": 10,
+      "losses": 9,
+      "played": 11,
       "scheduled": 12,
-      "remaining": 2,
+      "remaining": 1,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -989,9 +989,9 @@
         {
           "week": 11,
           "date": "2026-11-12T00:30:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "L",
+          "score": "7-28",
           "homeAway": "away",
           "oppName": "Central Michigan Chippewas",
           "oppAbbr": "CMU",
@@ -4890,10 +4890,10 @@
     "113": {
       "espnId": "113",
       "wins": 5,
-      "losses": 4,
-      "played": 9,
+      "losses": 5,
+      "played": 10,
       "scheduled": 12,
-      "remaining": 3,
+      "remaining": 2,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -4999,9 +4999,9 @@
         {
           "week": 11,
           "date": "2026-11-12T00:30:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "L",
+          "score": "0-24",
           "homeAway": "away",
           "oppName": "Toledo Rockets",
           "oppAbbr": "TOL",
@@ -13940,10 +13940,10 @@
     "2050": {
       "espnId": "2050",
       "wins": 3,
-      "losses": 6,
-      "played": 9,
+      "losses": 7,
+      "played": 10,
       "scheduled": 12,
-      "remaining": 3,
+      "remaining": 2,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -14049,9 +14049,9 @@
         {
           "week": 11,
           "date": "2026-11-12T00:30:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "L",
+          "score": "7-28",
           "homeAway": "home",
           "oppName": "Buffalo Bulls",
           "oppAbbr": "BUFF",
@@ -14083,11 +14083,11 @@
     },
     "2084": {
       "espnId": "2084",
-      "wins": 6,
+      "wins": 7,
       "losses": 3,
-      "played": 9,
+      "played": 10,
       "scheduled": 12,
-      "remaining": 3,
+      "remaining": 2,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -14193,9 +14193,9 @@
         {
           "week": 11,
           "date": "2026-11-12T00:30:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "W",
+          "score": "28-7",
           "homeAway": "away",
           "oppName": "Ball State Cardinals",
           "oppAbbr": "BALL",
@@ -14371,11 +14371,11 @@
     },
     "2117": {
       "espnId": "2117",
-      "wins": 4,
+      "wins": 5,
       "losses": 5,
-      "played": 9,
+      "played": 10,
       "scheduled": 12,
-      "remaining": 3,
+      "remaining": 2,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -14481,9 +14481,9 @@
         {
           "week": 11,
           "date": "2026-11-12T00:30:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "W",
+          "score": "28-7",
           "homeAway": "home",
           "oppName": "Sacramento State Hornets",
           "oppAbbr": "SAC",
@@ -19123,11 +19123,11 @@
     },
     "2649": {
       "espnId": "2649",
-      "wins": 7,
+      "wins": 8,
       "losses": 2,
-      "played": 9,
+      "played": 10,
       "scheduled": 12,
-      "remaining": 3,
+      "remaining": 2,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -19233,9 +19233,9 @@
         {
           "week": 11,
           "date": "2026-11-12T00:30:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "W",
+          "score": "24-0",
           "homeAway": "home",
           "oppName": "Massachusetts Minutemen",
           "oppAbbr": "MASS",
