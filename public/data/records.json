@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updatedAt": "2026-11-12T18:45:14.645Z",
+  "updatedAt": "2026-11-13T18:26:47.603Z",
   "teams": {
     "2": {
       "espnId": "2",
@@ -2885,10 +2885,10 @@
     "58": {
       "espnId": "58",
       "wins": 6,
-      "losses": 3,
-      "played": 9,
+      "losses": 4,
+      "played": 10,
       "scheduled": 12,
-      "remaining": 3,
+      "remaining": 2,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -2994,9 +2994,9 @@
         {
           "week": 11,
           "date": "2026-11-13T01:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "L",
+          "score": "41-52",
           "homeAway": "home",
           "oppName": "Memphis Tigers",
           "oppAbbr": "MEM",
@@ -9054,11 +9054,11 @@
     },
     "235": {
       "espnId": "235",
-      "wins": 7,
+      "wins": 8,
       "losses": 2,
-      "played": 9,
+      "played": 10,
       "scheduled": 12,
-      "remaining": 3,
+      "remaining": 2,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -9164,9 +9164,9 @@
         {
           "week": 11,
           "date": "2026-11-13T01:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "W",
+          "score": "52-41",
           "homeAway": "away",
           "oppName": "South Florida Bulls",
           "oppAbbr": "USF",
@@ -12078,11 +12078,11 @@
     },
     "309": {
       "espnId": "309",
-      "wins": 6,
+      "wins": 7,
       "losses": 3,
-      "played": 9,
+      "played": 10,
       "scheduled": 12,
-      "remaining": 3,
+      "remaining": 2,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -12188,9 +12188,9 @@
         {
           "week": 11,
           "date": "2026-11-13T02:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "W",
+          "score": "42-21",
           "homeAway": "away",
           "oppName": "UL Monroe Warhawks",
           "oppAbbr": "ULM",
@@ -16676,10 +16676,10 @@
     "2433": {
       "espnId": "2433",
       "wins": 2,
-      "losses": 7,
-      "played": 9,
+      "losses": 8,
+      "played": 10,
       "scheduled": 12,
-      "remaining": 3,
+      "remaining": 2,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -16785,9 +16785,9 @@
         {
           "week": 11,
           "date": "2026-11-13T02:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "L",
+          "score": "21-42",
           "homeAway": "home",
           "oppName": "Louisiana Ragin' Cajuns",
           "oppAbbr": "UL",
