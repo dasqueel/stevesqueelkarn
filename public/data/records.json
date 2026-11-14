@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updatedAt": "2026-11-13T18:26:47.603Z",
+  "updatedAt": "2026-11-14T16:54:33.642Z",
   "teams": {
     "2": {
       "espnId": "2",
@@ -113,7 +113,7 @@
         },
         {
           "week": 11,
-          "date": "2026-11-14T17:00:00.000Z",
+          "date": "2026-11-14T21:15:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -689,7 +689,7 @@
         },
         {
           "week": 11,
-          "date": "2026-11-14T20:30:00.000Z",
+          "date": "2026-11-14T22:30:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -833,7 +833,7 @@
         },
         {
           "week": 11,
-          "date": "2026-11-15T00:30:00.000Z",
+          "date": "2026-11-15T03:30:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -1588,11 +1588,11 @@
     },
     "26": {
       "espnId": "26",
-      "wins": 9,
+      "wins": 10,
       "losses": 0,
-      "played": 9,
+      "played": 10,
       "scheduled": 12,
-      "remaining": 3,
+      "remaining": 2,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -1698,9 +1698,9 @@
         {
           "week": 11,
           "date": "2026-11-14T02:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "W",
+          "score": "22-14",
           "homeAway": "home",
           "oppName": "Illinois Fighting Illini",
           "oppAbbr": "ILL",
@@ -2020,11 +2020,11 @@
     },
     "38": {
       "espnId": "38",
-      "wins": 3,
+      "wins": 4,
       "losses": 6,
-      "played": 9,
+      "played": 10,
       "scheduled": 12,
-      "remaining": 3,
+      "remaining": 2,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -2130,9 +2130,9 @@
         {
           "week": 11,
           "date": "2026-11-14T03:15:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "W",
+          "score": "42-32",
           "homeAway": "home",
           "oppName": "Houston Cougars",
           "oppAbbr": "HOU",
@@ -2452,11 +2452,11 @@
     },
     "52": {
       "espnId": "52",
-      "wins": 4,
+      "wins": 5,
       "losses": 5,
-      "played": 9,
+      "played": 10,
       "scheduled": 12,
-      "remaining": 3,
+      "remaining": 2,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -2562,9 +2562,9 @@
         {
           "week": 11,
           "date": "2026-11-14T00:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "W",
+          "score": "16-10",
           "homeAway": "away",
           "oppName": "Pittsburgh Panthers",
           "oppAbbr": "PITT",
@@ -5286,7 +5286,7 @@
         },
         {
           "week": 11,
-          "date": "2026-11-14T21:15:00.000Z",
+          "date": "2026-11-14T22:30:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -5862,7 +5862,7 @@
         },
         {
           "week": 11,
-          "date": "2026-11-14T21:15:00.000Z",
+          "date": "2026-11-15T18:00:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -7612,7 +7612,7 @@
         },
         {
           "week": 13,
-          "date": "2026-11-24T05:00:00.000Z",
+          "date": "2026-11-25T00:00:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -8166,7 +8166,7 @@
         },
         {
           "week": 11,
-          "date": "2026-11-14T21:15:00.000Z",
+          "date": "2026-11-15T18:00:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -8310,7 +8310,7 @@
         },
         {
           "week": 11,
-          "date": "2026-11-14T20:30:00.000Z",
+          "date": "2026-11-15T00:15:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -8767,10 +8767,10 @@
     "221": {
       "espnId": "221",
       "wins": 6,
-      "losses": 3,
-      "played": 9,
+      "losses": 4,
+      "played": 10,
       "scheduled": 12,
-      "remaining": 3,
+      "remaining": 2,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -8876,9 +8876,9 @@
         {
           "week": 11,
           "date": "2026-11-14T00:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "L",
+          "score": "10-16",
           "homeAway": "home",
           "oppName": "Florida State Seminoles",
           "oppAbbr": "FSU",
@@ -9451,7 +9451,7 @@
         },
         {
           "week": 11,
-          "date": "2026-11-14T20:30:00.000Z",
+          "date": "2026-11-15T00:00:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -9595,7 +9595,7 @@
         },
         {
           "week": 11,
-          "date": "2026-11-14T19:00:00.000Z",
+          "date": "2026-11-14T21:30:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -9775,10 +9775,10 @@
     "248": {
       "espnId": "248",
       "wins": 7,
-      "losses": 2,
-      "played": 9,
+      "losses": 3,
+      "played": 10,
       "scheduled": 12,
-      "remaining": 3,
+      "remaining": 2,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -9884,9 +9884,9 @@
         {
           "week": 11,
           "date": "2026-11-14T03:15:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "L",
+          "score": "32-42",
           "homeAway": "away",
           "oppName": "Colorado Buffaloes",
           "oppAbbr": "COLO",
@@ -10315,7 +10315,7 @@
         },
         {
           "week": 11,
-          "date": "2026-11-14T20:30:00.000Z",
+          "date": "2026-11-15T00:00:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -10459,7 +10459,7 @@
         },
         {
           "week": 11,
-          "date": "2026-11-15T00:30:00.000Z",
+          "date": "2026-11-15T03:30:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -11035,7 +11035,7 @@
         },
         {
           "week": 11,
-          "date": "2026-11-14T21:15:00.000Z",
+          "date": "2026-11-14T22:30:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -11611,7 +11611,7 @@
         },
         {
           "week": 11,
-          "date": "2026-11-14T22:30:00.000Z",
+          "date": "2026-11-14T20:30:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -13040,7 +13040,7 @@
         },
         {
           "week": 11,
-          "date": "2026-11-14T17:00:00.000Z",
+          "date": "2026-11-14T21:15:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -13220,10 +13220,10 @@
     "356": {
       "espnId": "356",
       "wins": 6,
-      "losses": 3,
-      "played": 9,
+      "losses": 4,
+      "played": 10,
       "scheduled": 12,
-      "remaining": 3,
+      "remaining": 2,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -13329,9 +13329,9 @@
         {
           "week": 11,
           "date": "2026-11-14T02:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "L",
+          "score": "14-22",
           "homeAway": "away",
           "oppName": "UCLA Bruins",
           "oppAbbr": "UCLA",
@@ -14336,7 +14336,7 @@
         },
         {
           "week": 11,
-          "date": "2026-11-14T20:30:00.000Z",
+          "date": "2026-11-14T22:30:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -14912,7 +14912,7 @@
         },
         {
           "week": 11,
-          "date": "2026-11-14T20:30:00.000Z",
+          "date": "2026-11-15T00:15:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -15488,7 +15488,7 @@
         },
         {
           "week": 11,
-          "date": "2026-11-14T22:30:00.000Z",
+          "date": "2026-11-14T20:30:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -19520,7 +19520,7 @@
         },
         {
           "week": 11,
-          "date": "2026-11-14T19:00:00.000Z",
+          "date": "2026-11-14T21:30:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
@@ -19686,7 +19686,7 @@
         },
         {
           "week": 13,
-          "date": "2026-11-24T05:00:00.000Z",
+          "date": "2026-11-25T00:00:00.000Z",
           "completed": false,
           "result": null,
           "score": null,
