@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updatedAt": "2026-11-17T19:41:44.720Z",
+  "updatedAt": "2026-11-18T19:17:38.596Z",
   "teams": {
     "2": {
       "espnId": "2",
@@ -7481,11 +7481,11 @@
     },
     "193": {
       "espnId": "193",
-      "wins": 6,
+      "wins": 7,
       "losses": 4,
-      "played": 10,
+      "played": 11,
       "scheduled": 12,
-      "remaining": 2,
+      "remaining": 1,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -7602,9 +7602,9 @@
         {
           "week": 12,
           "date": "2026-11-18T00:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "W",
+          "score": "20-3",
           "homeAway": "away",
           "oppName": "Kent State Golden Flashes",
           "oppAbbr": "KENT",
@@ -7769,11 +7769,11 @@
     },
     "195": {
       "espnId": "195",
-      "wins": 7,
+      "wins": 8,
       "losses": 3,
-      "played": 10,
+      "played": 11,
       "scheduled": 12,
-      "remaining": 2,
+      "remaining": 1,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -7890,9 +7890,9 @@
         {
           "week": 12,
           "date": "2026-11-18T00:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "W",
+          "score": "35-28",
           "homeAway": "home",
           "oppName": "Ball State Cardinals",
           "oppAbbr": "BALL",
@@ -13940,10 +13940,10 @@
     "2050": {
       "espnId": "2050",
       "wins": 3,
-      "losses": 7,
-      "played": 10,
+      "losses": 8,
+      "played": 11,
       "scheduled": 12,
-      "remaining": 2,
+      "remaining": 1,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -14060,9 +14060,9 @@
         {
           "week": 12,
           "date": "2026-11-18T00:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "L",
+          "score": "28-35",
           "homeAway": "away",
           "oppName": "Ohio Bobcats",
           "oppAbbr": "OHIO",
@@ -14660,10 +14660,10 @@
     "2199": {
       "espnId": "2199",
       "wins": 4,
-      "losses": 6,
-      "played": 10,
+      "losses": 7,
+      "played": 11,
       "scheduled": 12,
-      "remaining": 2,
+      "remaining": 1,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -14780,9 +14780,9 @@
         {
           "week": 12,
           "date": "2026-11-17T23:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "L",
+          "score": "27-34",
           "homeAway": "away",
           "oppName": "Western Michigan Broncos",
           "oppAbbr": "WMU",
@@ -15668,10 +15668,10 @@
     "2309": {
       "espnId": "2309",
       "wins": 3,
-      "losses": 7,
-      "played": 10,
+      "losses": 8,
+      "played": 11,
       "scheduled": 12,
-      "remaining": 2,
+      "remaining": 1,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -15788,9 +15788,9 @@
         {
           "week": 12,
           "date": "2026-11-18T00:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "L",
+          "score": "3-20",
           "homeAway": "home",
           "oppName": "Miami (OH) RedHawks",
           "oppAbbr": "M-OH",
@@ -19555,11 +19555,11 @@
     },
     "2711": {
       "espnId": "2711",
-      "wins": 7,
+      "wins": 8,
       "losses": 3,
-      "played": 10,
+      "played": 11,
       "scheduled": 12,
-      "remaining": 2,
+      "remaining": 1,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -19676,9 +19676,9 @@
         {
           "week": 12,
           "date": "2026-11-17T23:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "W",
+          "score": "34-27",
           "homeAway": "home",
           "oppName": "Eastern Michigan Eagles",
           "oppAbbr": "EMU",
