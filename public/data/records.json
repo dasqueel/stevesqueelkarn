@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updatedAt": "2026-11-18T19:17:38.596Z",
+  "updatedAt": "2026-11-19T19:25:52.187Z",
   "teams": {
     "2": {
       "espnId": "2",
@@ -4890,10 +4890,10 @@
     "113": {
       "espnId": "113",
       "wins": 5,
-      "losses": 5,
-      "played": 10,
+      "losses": 6,
+      "played": 11,
       "scheduled": 12,
-      "remaining": 2,
+      "remaining": 1,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -5010,9 +5010,9 @@
         {
           "week": 12,
           "date": "2026-11-19T00:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "L",
+          "score": "33-34",
           "homeAway": "home",
           "oppName": "Akron Zips",
           "oppAbbr": "AKR",
@@ -13507,11 +13507,11 @@
     },
     "2006": {
       "espnId": "2006",
-      "wins": 1,
+      "wins": 2,
       "losses": 9,
-      "played": 10,
+      "played": 11,
       "scheduled": 12,
-      "remaining": 2,
+      "remaining": 1,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -13628,9 +13628,9 @@
         {
           "week": 12,
           "date": "2026-11-19T00:00:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "W",
+          "score": "34-33",
           "homeAway": "away",
           "oppName": "Massachusetts Minutemen",
           "oppAbbr": "MASS",
@@ -14083,11 +14083,11 @@
     },
     "2084": {
       "espnId": "2084",
-      "wins": 7,
+      "wins": 8,
       "losses": 3,
-      "played": 10,
+      "played": 11,
       "scheduled": 12,
-      "remaining": 2,
+      "remaining": 1,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -14204,9 +14204,9 @@
         {
           "week": 12,
           "date": "2026-11-19T00:30:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "W",
+          "score": "40-21",
           "homeAway": "home",
           "oppName": "Central Michigan Chippewas",
           "oppAbbr": "CMU",
@@ -14372,10 +14372,10 @@
     "2117": {
       "espnId": "2117",
       "wins": 5,
-      "losses": 5,
-      "played": 10,
+      "losses": 6,
+      "played": 11,
       "scheduled": 12,
-      "remaining": 2,
+      "remaining": 1,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -14492,9 +14492,9 @@
         {
           "week": 12,
           "date": "2026-11-19T00:30:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "L",
+          "score": "21-40",
           "homeAway": "away",
           "oppName": "Buffalo Bulls",
           "oppAbbr": "BUFF",
