@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updatedAt": "2026-11-19T19:25:52.187Z",
+  "updatedAt": "2026-11-20T19:00:30.184Z",
   "teams": {
     "2": {
       "espnId": "2",
@@ -8623,10 +8623,10 @@
     "218": {
       "espnId": "218",
       "wins": 2,
-      "losses": 8,
-      "played": 10,
+      "losses": 9,
+      "played": 11,
       "scheduled": 12,
-      "remaining": 2,
+      "remaining": 1,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -8743,9 +8743,9 @@
         {
           "week": 12,
           "date": "2026-11-20T00:30:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "L",
+          "score": "27-31",
           "homeAway": "home",
           "oppName": "Rice Owls",
           "oppAbbr": "RICE",
@@ -9486,11 +9486,11 @@
     },
     "242": {
       "espnId": "242",
-      "wins": 1,
+      "wins": 2,
       "losses": 9,
-      "played": 10,
+      "played": 11,
       "scheduled": 12,
-      "remaining": 2,
+      "remaining": 1,
       "excludedCCG": 0,
       "scheduleIncomplete": false,
       "games": [
@@ -9607,9 +9607,9 @@
         {
           "week": 12,
           "date": "2026-11-20T00:30:00.000Z",
-          "completed": false,
-          "result": null,
-          "score": null,
+          "completed": true,
+          "result": "W",
+          "score": "31-27",
           "homeAway": "away",
           "oppName": "Temple Owls",
           "oppAbbr": "TEM",
